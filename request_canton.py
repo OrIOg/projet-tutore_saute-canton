@@ -1,6 +1,7 @@
 # pip install sparqlwrapper
 # https://rdflib.github.io/sparqlwrapper/
 
+import re
 import sys
 import pprint
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -16,7 +17,9 @@ query1 = """SELECT ?commune_de_France ?commune_de_FranceLabel ?population ?borde
   ?commune_de_France wdt:P625 ?location.
   ?region wdt:P31 wd:Q6465.
 }
-LIMIT 10
+
+OFFSET %s
+LIMIT 20000
 """
 
 query2 = """
@@ -36,6 +39,26 @@ def get_results(endpoint_url, query):
     sparql.setReturnFormat(JSON)
     return sparql.query().convert()
 
+def get_cities(endpoint_url, offset):
+  user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
+  # TODO adjust user agent; see https://w.wiki/CX6
+  sparql = SPARQLWrapper(endpoint_url, agent=user_agent)
+  sparql.setQuery(query1 % (offset))
+  sparql.setReturnFormat(JSON)
+  return sparql.query().convert()
 
+
+
+
+"""
 results = get_results(endpoint_url, query1)
-print(type(results))
+print(type(results["results"]["bindings"][0]))
+for d in results["results"]["bindings"] :
+  for k, i in d.items() : 
+    print(k + "->", end="")
+    print(i)
+  break
+
+
+res = re.findall(r"[-+]?\d*\.\d+|\d+", 'Point(4.609722222 46.987222222)')
+print(" ".join(res))"""
