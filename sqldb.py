@@ -58,7 +58,7 @@ else:
 
 r = request_canton.get_cities(request_canton.endpoint_url, 0)
 insert_into_cities(r["results"]["bindings"])
-cursor.close()
+
 
 
 reset_table("regions")
@@ -74,3 +74,5 @@ else:
 
 r = request_canton.get_results(request_canton.endpoint_url, request_canton.query2)
 insert_into_regions(r["results"]["bindings"])
+
+canton.close()
