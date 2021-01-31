@@ -8,7 +8,7 @@ import sqlite3
 
 endpoint_url = "https://query.wikidata.org/sparql"
 
-query = """SELECT ?commune_de_France ?commune_de_FranceLabel ?population ?border ?location ?region WHERE {
+query1 = """SELECT ?commune_de_France ?commune_de_FranceLabel ?population ?border ?location ?region WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
   ?commune_de_France wdt:P31 wd:Q484170.
   ?commune_de_France wdt:P1082 ?population.
@@ -19,7 +19,7 @@ query = """SELECT ?commune_de_France ?commune_de_FranceLabel ?population ?border
 LIMIT 10
 """
 
-query = """
+query2 = """
 SELECT ?region ?regionLabel ?regionadj ?regionadjLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
   ?region wdt:P31 wd:Q6465.
@@ -37,5 +37,5 @@ def get_results(endpoint_url, query):
     return sparql.query().convert()
 
 
-results = get_results(endpoint_url, query)
+results = get_results(endpoint_url, query1)
 print(type(results))
