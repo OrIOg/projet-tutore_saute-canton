@@ -7,7 +7,7 @@ import sys
 # Informations disponible: https://www.insee.fr/fr/information/4316069
 START_COMMUNE = 1001
 MAX_COMMUNE = 95690
-BURST = 5
+BURST = 10
 
 def drop_table(db: sqlite3.Connection, name):
     db.execute(f"DROP TABLE  IF EXISTS {name}")
@@ -60,7 +60,7 @@ def main(db: sqlite3.Connection):
     start = START_COMMUNE
     query = db.execute('''SELECT MAX(insee) FROM cities''').fetchone()
     if query and query[0]:
-        start = query[0]
+        start = query[0] + 1
         print("Cities already exists.")
         print(f"Nb cities  : {db.execute(''' SELECT count(DISTINCT code) FROM cities ''').fetchone()[0]}")
         print(f"Nb entries : {db.execute(''' SELECT count(code) FROM cities ''').fetchone()[0]}")
