@@ -9,16 +9,23 @@ import sqlite3
 
 endpoint_url = "https://query.wikidata.org/sparql"
 
-query1 = """SELECT ?commune_de_France ?commune_de_FranceLabel ?population ?border ?location ?region ?insee WHERE {
+query_city_only = """SELECT ?commune_de_France ?commune_de_FranceLabel ?departement ?region ?population ?location WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
   ?commune_de_France wdt:P31 wd:Q484170.
   ?commune_de_France wdt:P1082 ?population.
-  ?commune_de_France wdt:P47 ?border.
   ?commune_de_France wdt:P625 ?location.
-  ?region wdt:P31 wd:Q6465.
-  ?commune_de_France wdt:P374 ?insee.
-  FILTER(xsd:integer(?insee) >= %d).
-  FILTER(xsd:integer(?insee) <= %d).
+  ?commune_de_France wdt:P131 ?departement.
+  ?departement wdt:P31 wd:Q6465.
+  ?departement wdt:P131 ?region.
+  ?region wdt:P31 wd:Q36784.
+}"""
+
+query_city_borders = """SELECT ?commune ?border WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  VALUES ?commune {
+    wd:%s
+  }
+  ?commune wdt:P47 ?border.
 }"""
 
 query2 = """
@@ -38,11 +45,19 @@ def get_results(endpoint_url, query):
     sparql.setReturnFormat(JSON)
     return sparql.query().convert()
 
-def get_cities(endpoint_url, offset, nb=1000):
+def get_cities(endpoint_url):
   user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
   # TODO adjust user agent; see https://w.wiki/CX6
   sparql = SPARQLWrapper(endpoint_url, agent=user_agent)
-  sparql.setQuery(query1 % (offset, offset+nb))
+  sparql.setQuery(query_city_only)
+  sparql.setReturnFormat(JSON)
+  return sparql.query().convert()
+
+def get_city_borders(endpoint_url, city_code):
+  user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
+  # TODO adjust user agent; see https://w.wiki/CX6
+  sparql = SPARQLWrapper(endpoint_url, agent=user_agent)
+  sparql.setQuery(query_city_borders % city_code)
   sparql.setReturnFormat(JSON)
   return sparql.query().convert()
 
