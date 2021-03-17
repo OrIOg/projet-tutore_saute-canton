@@ -1,5 +1,6 @@
 import sqlite3
 import re
+from typing import List
 import request_canton
 import argparse
 import sys
@@ -55,9 +56,9 @@ def insert_into_cities(db: sqlite3.Connection, data):
     canton.commit()
     print()
 
-def select_all_from(db, table):
-    db.execute("SELECT * FROM " + table)
-    return db.fetchall()
+def select_all_from(db: sqlite3.Connection, table):
+    rs = db.execute("SELECT * FROM " + table)
+    return rs.fetchall()
 
 def init(db: sqlite3.Connection):
     db.execute(''' CREATE TABLE IF NOT EXISTS cities (code text, name text, departement text, region text, population INTEGER, location text, distance INTEGER)''')
@@ -99,6 +100,26 @@ def query_cities_neighbors(db: sqlite3.Connection):
         print(f"\t[{(1+i):0{nb_digits}}/{nb_insertions}] Inserting {nb_in} neighbors")
         db.commit()
     print()
+
+def get_db_connection():
+    return sqlite3.connect("canton.db")
+
+def get_cities(db: sqlite3.Connection, raw=False):
+    cities: List[List] = select_all_from(db, "cities")
+    if not raw:
+        for i, city in enumerate(cities):
+            city = list(city)
+            city[4] = int(city[4])
+            dst = int(city[6])
+            location = city[5].split(' ')
+            city[5] = float(location[0])
+            city[6] = float(location[1])
+            city.append(dst)
+            cities[i] = city
+    return cities
+
+def get_borders(db: sqlite3.Connection):
+    return select_all_from(db, "cities_borders")
 
 if __name__ == "__main__":
     canton = sqlite3.connect("canton.db")
