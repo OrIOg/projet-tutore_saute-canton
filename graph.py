@@ -43,3 +43,5 @@ class Region:
 		self.name: str = name
 		self.country: str = country
 		self.neighbours: SubDict = SubDict(country.regions, neighbours)
+
+
