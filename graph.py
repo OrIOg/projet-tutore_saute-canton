@@ -13,7 +13,7 @@ class Country:
 
 	def add_canton(self, code: str, name: str, population: int, region: str, coordinates: Tuple[float, float], neighbours: List[str]):
 		self.cantons[code] = Canton(
-			self, code, name, population, self.regions[region], coordinates, neighbours)
+			self, code, name, population, region, coordinates, neighbours)
 
 
 class Canton:
@@ -41,7 +41,7 @@ class Region:
 	def __init__(self, country: Country, code: str, name: str, neighbours: List[str]):
 		self.code: str = code
 		self.name: str = name
-		self.country: str = country
+		self.country = country
 		self.neighbours: SubDict = SubDict(country.regions, neighbours)
 
 
