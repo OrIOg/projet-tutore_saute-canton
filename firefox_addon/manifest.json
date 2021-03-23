@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Saute Canton Cheat",
+    "version": "1.0.0",
+    "description": "Give tips about which direction to go.",
+    "icons": {
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+        "matches": ["*://sautecanton.fr/commune/*"],
+        "js": ["./content_scripts/index.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "cities_data.json"
+    ]
+}
