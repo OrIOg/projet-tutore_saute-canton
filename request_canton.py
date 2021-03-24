@@ -31,6 +31,7 @@ query_city_borders = """SELECT ?commune ?border WHERE {
   }
   ?commune wdt:P47 ?border.
   ?border wdt:P31 wd:Q484170.
+  ?border wdt:P374 ?insee.
 }"""
 
 query2 = """
