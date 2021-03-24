@@ -100,7 +100,7 @@ def query_cities(db: sqlite3.Connection):
 
     db.close()"""
 
-def __mp_request(nb_digits, nb_cities, data):
+def __mp_request_cn(nb_digits, nb_cities, data):
     db = get_db_connection()
     i, codes = data
     r = request_canton.get_city_borders(request_canton.endpoint_url, codes)["results"]["bindings"]
@@ -118,7 +118,7 @@ def query_cities_neighbors(db: sqlite3.Connection):
 
     codes_list = [(i, [code[0] for code in data[i:i+SMALL_BURST]]) for i in range(0, nb_cities, SMALL_BURST)]
     with Pool(processes=None) as pool:
-        results = pool.map(partial(__mp_request, nb_digits, nb_cities), codes_list)
+        results = pool.map(partial(__mp_request_cn, nb_digits, nb_cities), codes_list)
     print()
 
 def get_db_connection():
