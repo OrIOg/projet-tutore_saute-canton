@@ -43,7 +43,7 @@ class RandomDirection(Voyager):
         self.visited_cities = []
         self.visited_regions = []
         self.arrived = False
-        self.file = open("randomstat.csv", "at")
+        self.file = open("randomstat.csv", "at",  encoding="utf-8")
 
     def get_starting_point(self, country: Country):
         random.seed()
@@ -110,7 +110,7 @@ class RandomDirection(Voyager):
                 nb_jump += 1
         things_to_write = ("random, ", nb_jump, ",", self.arrived, ","
                             , len(self.visited_cities), ",",len(self.visited_regions)
-                            , self.visited_cities[0], self.visited_cities[-1])
+                            ,",", self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
         self.file.write(to_write)
         
@@ -213,7 +213,7 @@ class FollowADirection(Voyager):
 
         things_to_write = (self.direction, ",",nb_jump, ",", self.arrived, ","
                             , len(self.visited_cities), ",",len(self.visited_regions)
-                            , self.visited_cities[0], self.visited_cities[-1])
+                            , ",",self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
         self.file.write(to_write)
 
@@ -232,31 +232,40 @@ if __name__ == '__main__' :
         sqldb.init(canton)
         cities  = sqldb.get_cities(canton)
         borders = sqldb.get_borders(canton)
-        
-        print(cities[1])
-
+        print(cities[0])
+        print(borders[1])
         france = Country()
         border_index = []
         border_index.extend(range(len(borders)))
 
         for city in cities : 
             code = city[0]
-            print(code)
             name = city[1]
             region = city[2]
             dep = city[3]
             pop = int(city[4])
             coord = (city[5], city[6])
             neigh = []
-            for i in border_index : 
+            """for i in border_index : 
                 if borders[i][0] == code :
                     neigh.append(borders[i][1])
-                    border_index.remove(i)
+                    border_index.remove(i)"""
             france.add_canton(code, name, pop, region, coord, neigh)
-        print(len(france.cantons))
+            print(len(france.cantons))
+
+        list_cities = france.cantons.keys()
+        for city in list_cities:
+            neigh = []
+            for i in border_index : 
+                if borders[i][0] == city and borders[i][1] in list_cities:
+                    neigh.append(borders[i][1])
+                    border_index.remove(i)
+            france.add_neighbours_to_canton(city, neigh)
+
+        #all neighbours completed
         pickle.dump(france, open("france.p", "xb"))
 
-    for i in range(100):
+    for i in range(10000):
         r_player = RandomDirection()
         r_player.play(france)
 

@@ -15,6 +15,9 @@ class Country:
 		self.cantons[code] = Canton(
 			self, code, name, population, region, coordinates, neighbours)
 
+	def add_neighbours_to_canton(self, code : str, neighbours: List[str]):
+		self.cantons[code].add_neighbours(neighbours) 
+
 
 class Canton:
 	BIG_THRESOLD = 50000
@@ -32,6 +35,11 @@ class Canton:
 		self.coordinates: Tuple[float, float] = coordinates
 		self.neighbours: SubDict = SubDict(country.cantons, neighbours)
 		self.is_big = self.population >= self.BIG_THRESOLD
+
+	def add_neighbours(self, neighbours: List[str]):
+		self.neighbours : SubDict = SubDict(self.country.cantons, neighbours)
+
+
 
 
 class Region:
