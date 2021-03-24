@@ -4,6 +4,8 @@ from typing import List
 import request_canton
 import argparse
 import sys
+from multiprocessing import Pool
+from functools import partial
 
 # Informations disponible: https://www.insee.fr/fr/information/4316069
 START_COMMUNE = 1001
@@ -98,18 +100,25 @@ def query_cities(db: sqlite3.Connection):
 
     db.close()"""
 
+def __mp_request(nb_digits, nb_cities, data):
+    db = get_db_connection()
+    i, codes = data
+    r = request_canton.get_city_borders(request_canton.endpoint_url, codes)["results"]["bindings"]
+    for res in r:
+        db.execute("INSERT INTO cities_borders (code, neighbour) VALUES (?,?)", (parse_uri(res["commune"]), parse_uri(res["border"])))
+    print(f"\t[{(1+i):0{nb_digits}}/{nb_cities}] Inserting {len(r)} neighbors")
+    db.commit()
+
 def query_cities_neighbors(db: sqlite3.Connection):
+    from time import perf_counter
+
     data = db.execute(''' SELECT code FROM cities ''').fetchall()
     nb_cities = len(data)
     nb_digits = len(str(nb_cities))
 
-    for i in range(0, nb_cities, SMALL_BURST):
-        codes = [code[0] for code in data[i:i+SMALL_BURST]]
-        r = request_canton.get_city_borders(request_canton.endpoint_url, codes)["results"]["bindings"]
-        for res in r:
-            db.execute("INSERT INTO cities_borders (code, neighbour) VALUES (?,?)", (parse_uri(res["commune"]), parse_uri(res["border"])))
-        print(f"\t[{(1+i):0{nb_digits}}/{nb_cities}] Inserting {len(r)} neighbors")
-        db.commit()
+    codes_list = [(i, [code[0] for code in data[i:i+SMALL_BURST]]) for i in range(0, nb_cities, SMALL_BURST)]
+    with Pool(processes=None) as pool:
+        results = pool.map(partial(__mp_request, nb_digits, nb_cities), codes_list)
     print()
 
 def get_db_connection():
@@ -133,7 +142,7 @@ def get_borders(db: sqlite3.Connection):
     return select_all_from(db, "cities_borders")
 
 if __name__ == "__main__":
-    canton = sqlite3.connect("canton.db")
+    canton = get_db_connection()
 
     parser = argparse.ArgumentParser(description='Manage DBs for the project.')
     actions = parser.add_argument_group(title="action", description="Action to perform with the DB.")
