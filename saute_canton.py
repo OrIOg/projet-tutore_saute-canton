@@ -2,6 +2,7 @@ import request_canton
 from graph import Country, Canton, Region
 import random
 from enum import Enum
+import argparse
 
 import sqldb
 import sqlite3
@@ -16,7 +17,7 @@ class Direction(Enum):
     EST = ("est", (-1000, 0))
     WEST = ("ouest", (1000, 0))
     NORTH_WEST = ("nord-ouest", (1000, 1000))
-    NORTH_EST = ("nored-est", (-1000, 1000))
+    NORTH_EST = ("nord-est", (-1000, 1000))
     SOUTH_WEST = ("sud-ouest", (1000, -1000))
     SOUTH_EST = ("sud-est", (-1000, -1000))
 
@@ -99,6 +100,7 @@ class RandomDirection(Voyager):
             if city.is_big : 
                 self.arrived = True
                 print("Arrived in a big city")
+                break
             else:
                 if len(city.neighbours) < 1 :
                     print("Plus de voisin dispo, Impossible")
@@ -108,11 +110,14 @@ class RandomDirection(Voyager):
                     break
 
                 nb_jump += 1
-        things_to_write = ("random, ", nb_jump, ",", self.arrived, ","
-                            , len(self.visited_cities), ",",len(self.visited_regions)
-                            ,",", self.visited_cities[0], ",", self.visited_cities[-1], "\n")
+            things_to_write = ("random, ", nb_jump, ",", self.arrived, ","
+                                , len(self.visited_cities), ",",len(self.visited_regions)
+                                ,",", self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
         self.file.write(to_write)
+
+    def copy(self):
+        return RandomDirection()
         
 class FollowADirection(Voyager):
 
@@ -121,61 +126,88 @@ class FollowADirection(Voyager):
         self.visited_regions = []
         self.arrived = False
         self.direction = direction
-        self.file = open("followstat.csv", "at")
+        d = direction.value[0]
+        name = "followstat_" + d
+        self.file = open(name +".csv", "at")
 
     def get_starting_point(self, country: Country):
         random.seed()
-        cantons = country.cantons.keys()
+        starting_point = random.choice(list(country.cantons.values()))
 
-        starting_point = cantons[random.randint(0, len(cantons) -1)]
         self.visited_cities.append(starting_point.name)
         self.visited_regions.append(starting_point.region)
-        return starting_point
+        return starting_point 
+
+    def choose_random_city(self, neighbors):
+        random.seed()
+        return random.choice(list(neighbors.values()))
+
 
     def compute_closest_city(self, coord, neighbors):
                
-        best_city : Canton
         best_lg, best_lt = coord
+        token = False
         for city in neighbors.values():
             cur_lg, cur_lt = city.coordinates
             if self.direction == Direction.EST :           
                 if cur_lg <  best_lg : 
                     best_lg  = cur_lg
                     best_city = city
-            
+                    token = True
             elif self.direction == Direction.NORTH:
                 if cur_lt >  best_lt : 
                     best_lt  = cur_lt
                     best_city = city
+                    token = True
             elif self.direction == Direction.WEST:
                 if cur_lg >  best_lg : 
                     best_lg  = cur_lg
                     best_city = city
+                    token = True
             elif self.direction == Direction.SOUTH:
                 if cur_lt <  best_lt : 
                     best_lt  = cur_lt
                     best_city = city
+                    token = True
             elif self.direction == Direction.NORTH_EST:
-                if cur_lg <  best_lg  or cur_lt >  best_lt : 
+                if cur_lg <  best_lg  != cur_lt >  best_lt : #semble bon
                     best_lg  = cur_lg
                     best_lt = cur_lt
                     best_city = city
-            elif self.direction == Direction.NORTH_WEST:
-                if cur_lt + cur_lg >  best_lt + best_lt: 
+                    token = True
+            elif self.direction == Direction.NORTH_WEST: #c bon
+                if cur_lt + cur_lg >  best_lt + best_lg: 
                     best_lg  = cur_lg
                     best_lt = cur_lt
                     best_city = city
-            elif self.direction == Direction.SOUTH_EST:
-                if cur_lt + cur_lg <  best_lt + best_lt: 
+                    token = True
+            elif self.direction == Direction.SOUTH_EST: #c bon
+                if cur_lt + cur_lg <  best_lt + best_lg: 
                     best_lg  = cur_lg
                     best_lt = cur_lt
                     best_city = city
+                    token = True
             else :
-                if cur_lg >  best_lg  or cur_lt <  best_lt : 
+                if cur_lg >  best_lg  != cur_lt <  best_lt : #pareillement
                     best_lg  = cur_lg
                     best_lt = cur_lt
                     best_city = city
+                    token = True
+        if(not token): 
+            l_name = []
+            neigh = []
+            for city in neighbors.values():
+                neigh.append(city.name)
 
+            while(True):
+                best_city = self.choose_random_city(neighbors)
+                if(not best_city.name in self.visited_cities) and best_city.name not in l_name:
+                    break;
+                if all(city in l_name for city in neigh):
+                    return None
+                l_name.append(best_city.name)
+                #print(best_city.name)
+        print(best_city.name)
         return best_city
 
 
@@ -185,15 +217,16 @@ class FollowADirection(Voyager):
         coord =  canton.coordinates
         neighbors = canton.neighbours
         choosen : Canton
-        while(True):
-            if len(neighbors) == 0: 
+        if len(neighbors) == 0: 
+            return None
+        else :
+            choosen = self.compute_closest_city(coord, neighbors)
+            if choosen == None:
                 return None
-            else :
-                choosen = self.compute_closest_city(coord, neighbors)
-                self.visited_cities.append(choosen)
-                if choosen.region not in self.visited_regions : 
-                    self.visited_regions.append(choosen.region)
-                return choosen
+            self.visited_cities.append(choosen.name)
+            if choosen.region not in self.visited_regions : 
+                self.visited_regions.append(choosen.region)
+            return choosen
         
     def play(self, country : Country):
         city = self.get_starting_point(country)
@@ -202,6 +235,7 @@ class FollowADirection(Voyager):
             if city.is_big : 
                 self.arrived = True
                 print("Arrived in a big city")
+                break
             else:
                 if len(city.neighbours) < 1 :
                     print("Plus de voisin dispo, Impossible")
@@ -210,12 +244,15 @@ class FollowADirection(Voyager):
                 if city == None:
                     break
             nb_jump += 1
-
+        #partie où on écrit
         things_to_write = (self.direction, ",",nb_jump, ",", self.arrived, ","
-                            , len(self.visited_cities), ",",len(self.visited_regions)
+                           , len(self.visited_cities), ",",len(self.visited_regions)
                             , ",",self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
         self.file.write(to_write)
+
+    def copy(self):
+        return FollowADirection(self.direction)
 
 
 
@@ -265,7 +302,43 @@ if __name__ == '__main__' :
         #all neighbours completed
         pickle.dump(france, open("france.p", "xb"))
 
-    for i in range(10000):
-        r_player = RandomDirection()
-        r_player.play(france)
+
+    d = "for direction bot"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("nb", type=int,
+                    help="loop number")
+    parser.add_argument("-random", "-r", action="store_true", help="for random bot")
+    parser.add_argument("-north", "-n", action="store_true", help=d)
+    parser.add_argument("-south", "-s", action="store_true", help=d)
+    parser.add_argument("-est", "-e", action="store_true", help=d)
+    parser.add_argument("-west", "-w", action="store_true", help=d)
+    parser.add_argument("-north_est", "-n_e", action="store_true", help=d)
+    parser.add_argument("-north_west", "-n_w", action="store_true", help=d)
+    parser.add_argument("-south_est", "-s_e", action="store_true", help=d)
+    parser.add_argument("-south_west", "-s_w", action="store_true", help=d)
+
+    args = parser.parse_args()
+    if args.random:
+        player = RandomDirection()
+    elif args.north:
+        player = FollowADirection(Direction.NORTH)
+    elif args.south:
+        player = FollowADirection(Direction.SOUTH)
+    elif args.est:
+        player = FollowADirection(Direction.EST)
+    elif args.west:
+        player = player = FollowADirection(Direction.WEST)
+    elif args.north_est:
+        player = FollowADirection(Direction.NORTH_EST)
+    elif args.north_west:
+        player = FollowADirection(Direction.NORTH_WEST)
+    elif args.south_est:
+        player = player = FollowADirection(Direction.SOUTH_EST)
+    else:
+        player = player = FollowADirection(Direction.SOUTH_WEST)
+
+
+    for i in range(args.nb):
+        player.play(france)
+        player = player.copy()
 
