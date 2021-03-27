@@ -44,7 +44,7 @@ class RandomDirection(Voyager):
         self.visited_cities = []
         self.visited_regions = []
         self.arrived = False
-        self.file = open("randomstat.csv", "at",  encoding="utf-8")
+        self.file = open("resultats/randomstat.csv", "at",  encoding="utf-8")
 
     def get_starting_point(self, country: Country):
         random.seed()
@@ -127,7 +127,7 @@ class FollowADirection(Voyager):
         self.arrived = False
         self.direction = direction
         d = direction.value[0]
-        name = "followstat_" + d
+        name = "resultats/followstat_" + d
         self.file = open(name +".csv", "at")
 
     def get_starting_point(self, country: Country):
