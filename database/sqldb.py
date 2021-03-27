@@ -1,7 +1,7 @@
 import sqlite3
 import re
 from typing import List
-import request_canton
+import database.request_canton
 import argparse
 import sys
 from multiprocessing import Pool

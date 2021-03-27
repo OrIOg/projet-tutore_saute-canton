@@ -10098,3 +10098,1046 @@ random, 25,0,26,1,Bayet,Bayet
 random, 57,0,58,1,Sancy-les-Cheminots,Bassoles-Aulers
 random, 32,0,33,2,Marcillat,Saint-Gal-sur-Sioule
 random, 54,0,55,2,Malval,Colondannes
+random, 57,False,58,1,Nampcelles-la-Cour,Wiège-Faty
+random, 1,False,2,1,Mandelieu-la-Napoule,Cannes
+random, 69,False,70,3,Laragne-Montéglin,Pierrelongue
+random, 48,False,49,1,Sepmeries,Beuvry-la-Forêt
+random, 27,False,28,2,Orly-sur-Morin,Domptin
+random, 45,False,46,2,Marais-Vernier,Bouquelon
+random, 88,False,89,2,Chantérac,Minzac
+random, 60,False,61,3,Caucalières,Peyrens
+random, 99,False,100,3,Évron,Saint-Michel-des-Andaines
+random, 43,False,44,2,Quéant,Cantaing-sur-Escaut
+random, 27,False,28,1,Levoncourt,Pont-sur-Meuse
+random, 32,False,33,3,Bellefontaine,Saint-Denis-de-Villenette
+random, 66,False,67,2,Ancy-le-Franc,Racines
+random, 91,False,92,3,Ranchal,Sologny
+random, 31,False,32,1,Saint-Ouen-de-Sécherouvre,Sainte-Scolasse-sur-Sarthe
+random, 61,False,62,4,Montaigu-de-Quercy,Lherm
+random, 11,False,12,1,Clomot,Essey
+random, 137,False,138,2,Le Mesnil-Auzouf,Condé-sur-Vire
+random, 63,False,64,2,Fay-les-Étangs,Angy
+random, 62,False,63,3,Saint-Julien-en-Genevois,Vaux-lès-Saint-Claude
+random, 73,False,74,2,Ambonil,Bézaudun-sur-Bîne
+random, 46,False,47,1,Les Pins,Saint-Sornin
+random, 169,False,170,3,La Celle-Dunoise,Beaumont-du-Lac
+random, 123,False,124,3,Saint-André-de-Briouze,Sévigny
+random, 19,False,20,1,Arquettes-en-Val,Thézan-des-Corbières
+random, 142,False,143,3,Saint-Martin,Kriegsheim
+random, 46,False,47,2,Asnières-en-Poitou,Maisonnay
+random, 54,False,55,1,Bourcq,La Francheville
+random, 37,False,38,1,Guémappe,Rœux
+random, 66,False,67,3,Soulosse-sous-Saint-Élophe,Montigny-lès-Vaucouleurs
+random, 53,False,54,1,Ambarès-et-Lagrave,Moulon
+random, 64,False,65,4,La Châtre-Langlin,Lignerolles
+random, 47,False,48,1,Geaune,Montaut
+random, 86,False,87,3,Polastron,Villemur
+random, 18,False,19,1,Les Molunes,La Pesse
+random, 30,False,31,1,Bellegarde-en-Forez,Saint-Laurent-la-Conche
+random, 32,False,33,2,Colombiers,Néret
+random, 64,False,65,2,Artignosc-sur-Verdon,Saint-Antonin-du-Var
+random, 50,False,51,1,Banize,Saint-Silvain-Bellegarde
+random, 89,False,90,2,Pierrepont,Coulmer
+random, 29,False,30,1,Bosmoreau-les-Mines,Bosmoreau-les-Mines
+random, 29,False,30,1,Vannecourt,Tincry
+random, 16,False,17,1,Courmas,Bouilly
+random, 55,False,56,1,Domblain,Charmes-en-l'Angle
+random, 65,False,66,3,Sommauthe,Auve
+random, 36,False,37,1,Saint-Amand-les-Eaux,Bruille-lez-Marchiennes
+random, 14,False,15,2,Villotte,Blevaincourt
+random, 32,False,33,1,Plaudren,Treffléan
+random, 46,False,47,1,Dagonville,Cousances-lès-Triconville
+random, 21,False,22,1,Aizenay,Palluau
+random, 50,False,51,2,Bassignac-le-Bas,Bétaille
+random, 52,False,53,2,Clairoix,Le Fayel
+random, 29,False,30,1,Beaucens,Ger
+random, 33,False,34,1,Lux,Péchabou
+random, 10,False,11,1,Gerbaix,Rochefort
+random, 73,False,74,1,Saint-Geneys-près-Saint-Paulien,Mazeyrat-d'Allier
+random, 26,False,27,1,Saint-Hilaire-sur-Puiseaux,Pannes
+random, 19,False,20,1,Condé-sur-l'Escaut,Jenlain
+random, 148,False,149,3,Coulmier-le-Sec,Lirey
+random, 15,False,16,1,Mazères-de-Neste,Tuzaguet
+random, 47,True,48,2,Aucun,Pau
+random, 55,False,56,2,Gaja-la-Selve,Malegoude
+random, 25,True,26,1,Saint-André-lez-Lille,Tourcoing
+random, 9,False,10,1,Montmort-Lucy,Loisy-en-Brie
+random, 50,False,51,2,Saint-Germain-les-Vergnes,Clairavaux
+random, 51,False,52,1,Barbery,Beaurepaire
+random, 28,False,29,1,La Fère,Danizy
+random, 64,False,65,1,Bussy-la-Pesle,Saint-Julien
+random, 29,False,30,1,Magny-la-Ville,Mussy-la-Fosse
+random, 39,False,40,1,Bathelémont,Serres
+random, 84,False,85,2,Senantes,Hédouville
+random, 14,False,15,2,Botans,Trévenans
+random, 82,False,83,2,Seignosse,Balansun
+random, 28,False,29,2,Ô-de-Selle,Puits-la-Vallée
+random, 82,False,83,3,Ivry-le-Temple,Lilly
+random, 67,False,68,2,Forcé,Vion
+random, 121,False,122,4,Semerville,Lancé
+random, 64,False,65,3,Bassillac et Auberoche,Mayrac
+random, 14,False,15,1,Barbaste,Pompiey
+random, 24,False,25,2,Saint-Maigrin,Vignolles
+random, 89,False,90,3,Saint-Igny-de-Vers,Amions
+random, 21,False,22,1,Darnets,Darnets
+random, 15,True,16,2,Aubure,Colmar
+random, 26,False,27,1,Messac,Lohéac
+random, 29,False,30,1,Tréguier,Bégard
+random, 29,False,30,1,Le Boulou,Corbère-les-Cabanes
+random, 51,False,52,2,Sailly,Luzy-Saint-Martin
+random, 56,False,57,5,Raon-l'Étape,Parux
+random, 2,True,3,1,Saint-Avertin,Tours
+random, 18,False,19,2,Saint-Hilaire,Cohade
+random, 112,False,113,4,Arlempdes,Saint-Christol-de-Rodières
+random, 53,False,54,2,Saint-Arnoult-des-Bois,Louye
+random, 70,True,71,3,Ugny-le-Gay,Saint-Quentin
+random, 56,False,57,3,Nexon,Rosiers-de-Juillac
+random, 41,False,42,1,Lochwiller,Willgottheim
+random, 42,False,43,1,Les Pins,Ruelle-sur-Touvre
+random, 39,False,40,3,Sapignicourt,Ambrières
+random, 21,False,22,1,Malbouzon,Marvejols
+random, 101,False,102,1,Vibersviller,Lachambre
+random, 26,False,27,2,Droupt-Sainte-Marie,Périgny-la-Rose
+random, 79,False,80,3,Castéra-Lectourois,Asques
+random, 32,False,33,1,Médavy,Forges
+random, 45,False,46,1,Pionsat,Combronde
+random, 23,False,24,1,Tannay,Dirol
+random, 37,False,38,1,Kermaria-Sulard,Quemperven
+random, 69,False,70,2,Soursac,Saint-Bonnet-près-Bort
+random, 81,False,82,2,Écourt-Saint-Quentin,Houplin-Ancoisne
+random, 22,False,23,2,Rouvroy-les-Merles,Welles-Pérennes
+random, 186,False,187,4,Wy-dit-Joli-Village,Ayencourt
+random, 21,False,22,1,Beausite,Érize-la-Petite
+random, 131,False,132,2,Villeherviers,Les Bordes
+random, 7,True,8,1,Pouldreuzic,Quimper
+random, 19,False,20,1,Treschenu-Creyers,Treschenu-Creyers
+random, 42,False,43,2,Monteaux,Sublaines
+random, 0,False,1,1,Q48746069,Q48746069
+random, 22,False,23,1,Lascelle,Tournemire
+random, 102,False,103,4,Saint-Bonnet-de-Valclérieux,Vals-près-le-Puy
+random, 10,False,11,1,Viterne,Marthemont
+random, 82,False,83,4,Saint-Yorre,Chirassimont
+random, 96,False,97,2,Montgras,Saint-Michel
+random, 16,False,17,2,Tavaux,Terrans
+random, 1,True,2,2,Vanves,Issy-les-Moulineaux
+random, 6,True,7,1,Noyalo,Vannes
+random, 24,False,25,1,Glières-Val-de-Borne,Juvigny
+random, 48,False,49,1,Planzolles,Loubaresse
+random, 38,False,39,1,Vauville,Cricqueville-en-Auge
+random, 34,False,35,2,Pontivy,Forges de Lanouée
+random, 0,False,1,1,Savonnières-en-Woëvre,Savonnières-en-Woëvre
+random, 20,False,21,1,Bouresse,Saint-Maurice-la-Clouère
+random, 66,False,67,3,Saint-Jean-de-Bonneval,Trancault
+random, 20,False,21,1,Lannédern,Châteaulin
+random, 25,False,26,3,Petitmagny,Saulxures-sur-Moselotte
+random, 102,False,103,3,Marlenheim,Buhl
+random, 60,False,61,3,Boulbon,Gaujac
+random, 20,False,21,1,Rumesnil,Formentin
+random, 39,False,40,3,Henrichemont,Méry-sur-Cher
+random, 11,True,12,2,Ardin,Niort
+random, 97,False,98,3,Benais,Villemort
+random, 18,False,19,1,Molpré,Molpré
+random, 12,True,13,3,Chasse-sur-Rhône,Vénissieux
+random, 58,False,59,1,Ronchamp,Calmoutier
+random, 80,True,81,2,Saint-Hilaire,Perpignan
+random, 60,False,61,1,Craonne,Saint-Thomas
+random, 97,False,98,3,Gijounet,Mas-de-Londres
+random, 18,False,19,1,L'Hôpital,Alzing
+random, 26,False,27,1,Roz-sur-Couesnon,Broualan
+random, 99,False,100,1,Sainte-Solange,Crézancy-en-Sancerre
+random, 108,False,109,2,Lantillac,Crac'h
+random, 22,False,23,3,Saint-Laurent-Lolmie,Saint-Laurent-Lolmie
+random, 60,False,61,3,Aulas,Mandagout
+random, 79,False,80,2,Le Transloy,Courcelles-le-Comte
+random, 60,False,61,3,Woël,Dompcevrin
+random, 63,False,64,1,Puzeaux,Lawarde-Mauger-l'Hortoy
+random, 40,True,41,1,Seiches-sur-le-Loir,Angers
+random, 53,False,54,3,La Gorgue,Sachin
+random, 32,True,33,1,Chavenay,Versailles
+random, 0,False,1,1,Chémery,Chémery
+random, 22,False,23,2,Viré-en-Champagne,Arquenay
+random, 63,False,64,2,Lugny,La Chapelle-de-Bragny
+random, 98,False,99,3,Lamontgie,Saint-Bonnet-de-Condat
+random, 50,False,51,2,Brouqueyran,Balizac
+random, 24,False,25,1,L'Échelle,Aubigny-les-Pothées
+random, 37,False,38,1,Oblinghem,Nédonchel
+random, 112,False,113,1,Lons-le-Saunier,Aumont
+random, 45,False,46,1,Flines-lès-Mortagne,Maing
+random, 108,False,109,2,Clermont,Trosly-Breuil
+random, 34,False,35,1,Biville-sur-Mer,Intraville
+random, 20,False,21,2,Saint-André-de-Cruzières,Malbosc
+random, 76,False,77,3,Savigny-le-Sec,Flagey
+random, 59,False,60,2,Hautecourt-Romanèche,Thoissia
+random, 29,False,30,1,Entrammes,Laval
+random, 37,False,38,3,Baerendorf,Fraquelfing
+random, 57,False,58,1,La Vergenne,Quers
+random, 90,False,91,2,Préchac,Adé
+random, 32,True,33,2,La Coquille,Limoges
+random, 61,False,62,3,Sentelie,Meigneux
+random, 13,False,14,1,Vignes,Séby
+random, 31,False,32,1,Saint-Priest-Ligoure,Moissannes
+random, 36,False,37,2,Burlats,Le Margnès
+random, 12,True,13,1,La Fère,Saint-Quentin
+random, 13,False,14,2,Santosse,Aubigny-la-Ronce
+random, 65,False,66,2,Naves,Maissemy
+random, 23,False,24,1,Trécon,Saint-Mard-lès-Rouffy
+random, 166,False,167,3,Bauzemont,Harréville-les-Chanteurs
+random, 45,False,46,1,Belval,Évigny
+random, 112,False,113,4,Lyons-la-Forêt,Lalandelle
+random, 62,False,63,2,Jalesches,Prémilhat
+random, 64,False,65,4,Niévroz,Villefontaine
+random, 37,False,38,1,Maresches,Pont-sur-Sambre
+random, 63,False,64,3,Saint-Laurent-les-Bains,Saint-Laurent-d'Olt
+random, 37,False,38,2,Saint-Cybardeaux,Médillac
+random, 45,False,46,3,Barcelonnette,Crots
+random, 27,False,28,1,Bailly-aux-Forges,Treix
+random, 26,False,27,2,Saint-Congard,Bains-sur-Oust
+random, 38,False,39,2,Saint-Lys,Monferran-Savès
+random, 36,False,37,1,Margival,Cuisy-en-Almont
+random, 65,False,66,2,Grammont,Coisevaux
+random, 19,False,20,1,Jarville-la-Malgrange,Chaligny
+random, 68,False,69,2,Les Autels-Saint-Bazile,Cresseveuille
+random, 32,False,33,2,Bony,Joncourt
+random, 103,False,104,2,Fleix,Charroux
+random, 85,False,86,2,Marollette,L'Orée-d'Écouves
+random, 15,False,16,2,Parcieux,Sainte-Euphémie
+random, 110,False,111,3,Lussault-sur-Loire,Saint-Christophe-en-Bazelle
+random, 25,False,26,1,Villiers-sur-Suize,Rolampont
+random, 65,False,66,2,Bouxières-aux-Chênes,Dornot
+random, 2,True,3,1,Salles-d'Aude,Narbonne
+random, 37,False,38,2,Vacquières,Moulès-et-Baucels
+random, 23,False,24,1,Saint-Josse,Neufchâtel-Hardelot
+random, 15,False,16,1,Noyers-Saint-Martin,Maisoncelle-Tuilerie
+random, 72,False,73,3,Felzins,Rignac
+random, 17,False,18,1,Aussevielle,Ance Féas
+random, 141,False,142,3,Saint-Aubin-de-Lanquais,Vignonet
+random, 91,False,92,3,Méras,Lahage
+random, 45,False,46,2,Mello,Mello
+random, 59,False,60,1,Bey,La Tagnière
+random, 58,False,59,2,Saint-Rambert-en-Bugey,Ambronay
+random, 16,False,17,1,Farébersviller,Cocheren
+random, 36,False,37,2,Chassal,Échallon
+random, 27,False,28,1,Aujols,Vaillac
+random, 21,False,22,1,Montchevreuil,Troussures
+random, 81,False,82,4,Prades-d'Aubrac,La Roque-Sainte-Marguerite
+random, 60,False,61,1,Cusset,Louchy-Montfand
+random, 96,False,97,1,Ève,Venette
+random, 24,False,25,1,Caramany,Bélesta
+random, 96,False,97,2,Doucier,Bellecombe
+random, 52,False,53,3,Saint-Bonnet-des-Quarts,Ferrières-sur-Sichon
+random, 19,False,20,3,Villequier-Aumont,Guiscard
+random, 167,False,168,2,Montiers,Coullemelle
+random, 104,False,105,2,Guzargues,Monoblet
+random, 1,True,2,1,Urville-Nacqueville,Cherbourg-en-Cotentin
+random, 36,False,37,1,Saint-Pierre-du-Jonquet,Rumesnil
+random, 129,False,130,3,Prédefin,Warhem
+random, 62,False,63,3,Verseilles-le-Haut,Recologne
+random, 74,False,75,2,Cormoz,Cernon
+random, 68,False,69,3,Rauret,Vernon
+random, 22,False,23,1,Saint-Léon,Damazan
+random, 145,False,146,1,Hermanville,Hautot-l'Auvray
+random, 43,False,44,1,Simandre,Charnay-lès-Chalon
+random, 12,False,13,1,Saint-Polgues,Cordelle
+random, 25,False,26,1,Sérignac,Cumont
+random, 51,False,52,2,Florentia,Frontenaud
+random, 93,False,94,4,Saint-Pierre-le-Vieux,La Séauve-sur-Semène
+random, 0,True,1,1,Toulouse,Toulouse
+random, 41,False,42,3,Porte-Joie,Bray-et-Lû
+random, 58,False,59,2,Saint-Quentin-la-Tour,Mijanès
+random, 61,False,62,3,Viéville-en-Haye,Hagéville
+random, 33,False,34,3,Recologne,La Barre
+random, 16,False,17,1,Pinterville,Crasville
+random, 56,False,57,2,Saint-Sauveur,Nanteuil-le-Haudouin
+random, 71,False,72,2,Durdat-Larequille,Durtol
+random, 9,False,10,3,Miribel,Cailloux-sur-Fontaines
+random, 75,False,76,4,Notre-Dame-des-Millières,Embrun
+random, 101,False,102,3,Villers-Bocage,Monceaux-l'Abbaye
+random, 98,False,99,1,Rollancourt,Floringhem
+random, 144,False,145,3,Nesles-la-Montagne,Le Thoult-Trosnay
+random, 64,False,65,3,Gennetines,Dornes
+random, 33,False,34,2,Les Vans,Saint-Martin-de-Lansuscle
+random, 47,False,48,1,Saint-Jean-de-Monts,Saint-Étienne-du-Bois
+random, 35,False,36,1,Méréaucourt,Beaucamps-le-Vieux
+random, 50,False,51,3,Hecken,Lamadeleine-Val-des-Anges
+random, 39,False,40,2,Mouhet,La Forêt-du-Temple
+random, 47,False,48,2,Tracy-le-Val,Soucy
+random, 1,True,2,1,Fontvieille,Arles
+random, 41,False,42,2,Monchel-sur-Canche,Hautvillers-Ouville
+random, 21,False,22,1,Rouffignac-Saint-Cernin-de-Reilhac,Thonac
+random, 11,False,12,1,Penvénan,Penvénan
+random, 46,False,47,1,Saint-Léger-des-Prés,Saint-Marc-le-Blanc
+random, 55,False,56,2,Lévignac,Bajonnette
+random, 47,False,48,2,Epiniac,Chasné-sur-Illet
+random, 18,False,19,1,Lanthenans,Longevelle-sur-Doubs
+random, 86,False,87,1,Nangy,Menthonnex-en-Bornes
+random, 55,False,56,1,Mauvezin,Mauroux
+random, 57,False,58,1,Fontenotte,Voujeaucourt
+random, 14,False,15,1,Crézilles,Gye
+random, 60,False,61,2,Saint-Symphorien-des-Monts,Saint-Senier-de-Beuvron
+random, 17,False,18,1,Pontigny,Pontigny
+random, 25,False,26,1,Lorcy,Beaune-la-Rolande
+random, 58,False,59,4,Millay,Saint-André-en-Morvan
+random, 55,False,56,2,Fiménil,Reherrey
+random, 159,False,160,4,Montargis,Tracy-sur-Loire
+random, 41,False,42,1,Civry-en-Montagne,Villars-Fontaine
+random, 56,False,57,3,Aingoulaincourt,Chassey-Beaupré
+random, 19,False,20,1,Lomont-sur-Crête,Servin
+random, 77,False,78,3,La Croix-sur-Roudoule,Château-Ville-Vieille
+random, 46,False,47,1,Beaussais-Vitré,Granzay-Gript
+random, 83,False,84,1,Cintheaux,Saint-Gabriel-Brécy
+random, 47,False,48,2,Bellocq,Mimbaste
+random, 119,False,120,3,Le Détroit,Lonlay-l'Abbaye
+random, 43,False,44,1,Kergrist-Moëlou,Plouvara
+random, 115,False,116,3,Mellecey,Devrouze
+random, 125,True,126,4,Lachy,Meaux
+random, 35,False,36,2,Rignac,Bournazel
+random, 17,False,18,1,Châteauneuf-en-Thymerais,Favières
+random, 25,False,26,1,Le Pin,Annet-sur-Marne
+random, 29,False,30,1,Reuil,Chamery
+random, 27,False,28,1,Chailles,Thenay
+random, 27,False,28,1,Fontenay-sur-Eure,Boncé
+random, 30,False,31,1,Marcilly-la-Campagne,Acon
+random, 56,False,57,1,Loucelles,Le Locheur
+random, 81,False,82,3,Florentin-la-Capelle,Saint-Gal
+random, 133,False,134,2,Capens,Crampagna
+random, 66,False,67,2,Orgères,Les Barils
+random, 31,False,32,2,Lahonce,Macaye
+random, 30,False,31,1,Champs-sur-Marne,Neufmoutiers-en-Brie
+random, 56,False,57,3,Sainte-Croix-Vallée-Française,Sévérac-d'Aveyron
+random, 43,False,44,1,Montfort-sur-Argens,Le Val
+random, 19,False,20,1,Ceyzériat,Cras-sur-Reyssouze
+random, 19,False,20,2,Marolles-sous-Lignières,Bernouil
+random, 12,True,13,2,Ablon-sur-Seine,Massy
+random, 54,False,55,1,Ailhon,Saint-Priest
+random, 31,False,32,1,Maxstadt,Forbach
+random, 34,False,35,3,Albine,Villarzel-Cabardès
+random, 41,False,42,2,Notre-Dame-du-Cruet,Saint-Martin-d'Arc
+random, 28,False,29,1,Caudecoste,Boé
+random, 100,False,101,3,Sabran,Badaroux
+random, 32,False,33,1,Saint-Diéry,Champeix
+random, 82,False,83,4,Saint-Saturnin,Ceilloux
+random, 36,False,37,3,Rouvres-en-Woëvre,Knutange
+random, 0,False,1,1,Saint-Julien-de-Crempse,Saint-Julien-de-Crempse
+random, 68,False,69,2,Dignac,Saint-Amant-de-Bonnieure
+random, 55,False,56,2,Vignolles,Clion
+random, 112,False,113,3,Losne,Malange
+random, 17,False,18,2,Grandville,Bréban
+random, 44,False,45,3,Saint-Clément,Pouilly-sous-Charlieu
+random, 78,False,79,2,Marboué,Saint-Ouen
+random, 64,False,65,2,Le Fraysse,Montauriol
+random, 102,False,103,3,Jussey,Buc
+random, 59,False,60,2,Saint-Seurin-de-Prats,Saint-Sauveur-de-Puynormand
+random, 0,False,1,1,Saint-Martin-la-Campagne,Saint-Martin-la-Campagne
+random, 21,False,22,1,Sainte-Marie,Cologne
+random, 52,False,53,1,Hennezis,Lisors
+random, 15,False,16,1,La Houssière,Belmont-sur-Buttant
+random, 10,False,11,1,Concevreux,Cuiry-lès-Chaudardes
+random, 74,False,75,2,Grangermont,Villemaréchal
+random, 45,False,46,2,Vauconcourt-Nervezain,Gilley
+random, 30,False,31,2,Vrécourt,Torcenay
+random, 21,False,22,1,Curemonte,Ménoire
+random, 118,False,119,3,Clavette,Saint-Césaire
+random, 44,False,45,2,Parigny,Saint-Nicolas-des-Bois
+random, 44,False,45,1,Boussey,Baulme-la-Roche
+random, 41,False,42,1,Noueilles,Saint-Vincent
+random, 17,True,18,1,Saint-Jean-de-Cuculles,Montpellier
+random, 78,True,79,2,Lignan-de-Bordeaux,Bordeaux
+random, 114,False,115,3,Tourtour,Guillaumes
+random, 30,False,31,1,Westhoffen,Wolxheim
+random, 46,False,47,2,Gouy-en-Ternois,Barly
+random, 15,True,16,1,Zimmerbach,Colmar
+random, 21,False,22,1,Hannaches,Saint-Germain-la-Poterie
+random, 20,True,21,3,Montreuil,Niort
+random, 27,False,28,2,La Ferté-Saint-Aubin,Tigy
+random, 14,False,15,1,Alzen,Allières
+random, 12,False,13,1,Crouttes-sur-Marne,Marigny-en-Orxois
+random, 43,False,44,3,Bagnac-sur-Célé,Nauviale
+random, 73,False,74,5,Amécourt,La Chapelle-en-Vexin
+random, 79,False,80,2,La Pommeraye,La Chapelle-au-Moine
+random, 59,False,60,1,Villers-Rotin,Beire-le-Fort
+random, 15,False,16,1,Houtkerque,Warhem
+random, 39,False,40,2,Bois-de-Haye,Seicheprey
+random, 36,False,37,2,Sionviller,Avricourt
+random, 88,False,89,3,Magné,Fontaine-Chalendray
+random, 36,False,37,1,Courouvre,Pierrefitte-sur-Aire
+random, 37,False,38,1,Cesancey,Clairvaux-les-Lacs
+random, 62,False,63,1,Aunac,Saint-Fraigne
+random, 50,False,51,2,Montaut,Bernadets-Dessus
+random, 19,False,20,1,Bréxent-Énocq,Estréelles
+random, 62,False,63,1,Marolles-lès-Bailly,Villy-en-Trodes
+random, 73,False,74,2,Beaurieux,Champlat-et-Boujacourt
+random, 50,False,51,2,Écot,Joncherey
+random, 18,False,19,2,Sainte-Radégonde,Mérigny
+random, 154,False,155,4,La Chapelle-sous-Dun,Saint-Julien-sur-Reyssouze
+random, 16,False,17,1,Le Plessier-Huleu,Faverolles
+random, 47,False,48,1,Oroër,Bonlier
+random, 87,False,88,1,Rainneville,Quesnoy-sur-Airaines
+random, 31,False,32,1,Authon-Ébéon,Aumagne
+random, 54,False,55,1,Lelling,Lelling
+random, 36,True,37,3,Belcodène,Aix-en-Provence
+random, 137,False,138,1,Sainte-Christie-d'Armagnac,Préchac
+random, 12,False,13,1,Montjoie-le-Château,Goumois
+random, 16,False,17,1,Trébons-de-Luchon,Moustajon
+random, 100,False,101,3,Saint-Calez-en-Saosnois,Saint-Pierre-des-Nids
+random, 57,False,58,3,Peyroules,Montmeyan
+random, 14,True,15,1,La Membrolle-sur-Longuenée,Angers
+random, 41,False,42,1,Hallencourt,Saigneville
+random, 46,False,47,2,Fraissinet-de-Fourques,Cans-et-Cévennes
+random, 34,False,35,2,Clam,Brie-sous-Archiac
+random, 45,False,46,1,Saint-Rémy-des-Landes,Saint-Jean-de-la-Rivière
+random, 38,False,39,2,Pont-l'Évêque,Grandrû
+random, 16,False,17,1,Mailly-sur-Seille,Nomeny
+random, 70,False,71,2,Semide,Hans
+random, 43,False,44,2,Aizecourt-le-Haut,Matigny
+random, 57,False,58,3,Antignac,Lastic
+random, 91,True,92,2,Bourbach-le-Bas,Colmar
+random, 21,False,22,1,Les Vallois,Monthureux-le-Sec
+random, 26,False,27,2,Sainte-Reine-de-Bretagne,Le Croisic
+random, 61,False,62,2,Rochecorbon,Nouzilly
+random, 37,False,38,1,Monneren,Rettel
+random, 66,False,67,2,Castillon,Guillaumes
+random, 31,False,32,1,Chambœuf,Clémencey
+random, 90,False,91,1,Lusignan-Petit,Saint-Laurent
+random, 13,False,14,1,Cast,Dinéault
+random, 48,False,49,2,La Loge,Saint-Quentin-en-Tourmont
+random, 30,False,31,1,Ainvelle,Bourguignon-lès-Conflans
+random, 26,True,27,2,Bouconvillers,Cergy
+random, 21,True,22,1,Mondeville,Évry-Courcouronnes
+random, 79,False,80,3,Montot,Sergenaux
+random, 29,False,30,2,Noircourt,Marby
+random, 0,False,1,1,Isigny-sur-Mer,Isigny-sur-Mer
+random, 34,False,35,1,Notre-Dame-des-Landes,La Chevrolière
+random, 52,False,53,1,Vieussan,Puimisson
+random, 4,True,5,1,Quint-Fonsegrives,Toulouse
+random, 2,True,3,1,Mouguerre,Bayonne
+random, 23,False,24,2,Véranne,Rive-de-Gier
+random, 17,False,18,2,Barville,Mamers
+random, 16,True,17,1,West-Cappel,Dunkirk
+random, 50,False,51,2,La Bretenière,La Bretenière
+random, 61,False,62,3,Heurtevent,Beaufai
+random, 19,False,20,1,Capoulet-et-Junac,Alliat
+random, 41,False,42,2,Bourg-l'Évêque,Le Louroux-Béconnais
+random, 23,False,24,1,Iré-le-Sec,Thonnelle
+random, 12,False,13,1,Angles,La Jonchère
+random, 45,False,46,1,Rieutort-de-Randon,Mende
+random, 1,True,2,1,Cantenay-Épinard,Angers
+random, 45,False,46,1,Courant,Landes
+random, 70,False,71,2,Labouheyre,Argelouse
+random, 83,False,84,1,Goupillières,Montigny
+random, 80,False,81,1,Châteauneuf-sur-Loire,Vitry-aux-Loges
+random, 78,False,79,3,Thoissey,Vonnas
+random, 32,True,33,1,Spechbach-le-Bas,Mulhouse
+random, 49,True,50,1,Beuzec-Cap-Sizun,Quimper
+random, 31,False,32,1,Péault,Mareuil-sur-Lay-Dissais
+random, 38,False,39,2,Pontivy,Brignac
+random, 65,False,66,3,Oysonville,Chalou-Moulineux
+random, 129,False,130,2,Chenommet,Saint-Projet-Saint-Constant
+random, 5,True,6,1,Prenois,Dijon
+random, 27,False,28,1,Mortagne-du-Nord,Hasnon
+random, 42,False,43,3,Montagna-le-Templier,Saint-Amour
+random, 56,False,57,1,Aigneville,Gamaches
+random, 154,False,155,4,Orbeil,Tortebesse
+random, 48,False,49,2,Boucieu-le-Roi,Ratières
+random, 28,False,29,2,Leyvaux,Saint-Laurent-Chabreuges
+random, 83,False,84,3,L'Isle-Arné,Saint-Rustice
+random, 55,False,56,3,Feigneux,Montagny-Sainte-Félicité
+random, 22,False,23,1,Barjac,Montardit
+random, 39,False,40,2,Puy-Sanières,Bénévent-et-Charbillac
+random, 53,False,54,1,Couleuvre,Meillers
+random, 19,False,20,1,Saint-Hilaire-du-Bois,Pujols
+random, 20,False,21,1,Novion-Porcien,Doumely-Bégny
+random, 43,True,44,2,Bouchet,Avignon
+random, 25,False,26,1,Sarlabous,Oléac-Dessus
+random, 94,False,95,3,Villars-le-Sec,Magny-Vernois
+random, 15,False,16,1,Bunzac,La Rochefoucauld-en-Angoumois
+random, 130,False,131,3,Essarois,Grancey-sur-Ource
+random, 101,False,102,2,Tergnier,Andelain
+random, 131,False,132,2,Courbette,Plottes
+random, 144,False,145,1,La Crique,Fresquiennes
+random, 43,False,44,2,Pirey,Fondremand
+random, 29,True,30,2,Ruhans,Besançon
+random, 14,False,15,1,Urbanya,Codalet
+random, 50,False,51,3,Samerey,Authumes
+random, 39,False,40,2,Amplier,Hénu
+random, 26,False,27,2,Bains-les-Bains,Mersuay
+random, 109,False,110,2,Gennes,Rignovelle
+random, 0,False,1,1,Doucy-Tarentaise,Doucy-Tarentaise
+random, 46,False,47,1,Plouvain,Saint-Laurent-Blangy
+random, 40,False,41,1,Riom,Ceyssat
+random, 33,False,34,1,Euville,Kœur-la-Petite
+random, 20,False,21,1,Oisy,Marly
+random, 105,False,106,3,Félines-sur-Rimandoule,Villard-Notre-Dame
+random, 29,False,30,1,Sonnac,La Croix-Comtesse
+random, 98,False,99,3,Mézières-sur-Issoire,Blond
+random, 39,False,40,1,Saint-Gilles-Pligeaux,Guingamp
+random, 48,False,49,2,Rieussec,Caunes-Minervois
+random, 54,False,55,1,Honnechy,Carnières
+random, 66,False,67,2,Saint-Pierre-de-Belleville,La Buisse
+random, 12,False,13,2,Saint-Bois,Brangues
+random, 56,False,57,2,Châtillon-Saint-Jean,Chatte
+random, 42,False,43,1,Andlau,Ottrott
+random, 39,False,40,1,Delme,Amelécourt
+random, 43,False,44,1,Mondrepuis,Barenton-Cel
+random, 34,False,35,1,Montchenu,Châteaudouble
+random, 16,False,17,1,Neuvecelle,Évian-les-Bains
+random, 29,False,30,1,Soudé,Dommartin-Lettrée
+random, 93,False,94,2,Martigna,Chassal-Molinges
+random, 61,False,62,1,Saint-Louis-de-Montferrand,Parempuyre
+random, 24,False,25,1,Gesnes-le-Gandelin,Juillé
+random, 30,False,31,2,Noiron-sur-Bèze,Orville
+random, 22,False,23,1,Gourbera,Préchacq-les-Bains
+random, 71,False,72,1,Neuilh,Averan
+random, 11,False,12,1,Avize,Saint-Martin-d'Ablois
+random, 13,False,14,1,Palazinges,Collonges-la-Rouge
+random, 42,False,43,2,Saint-Coutant,Dœuil-sur-le-Mignon
+random, 30,False,31,1,Cénac-et-Saint-Julien,Carsac-Aillac
+random, 64,False,65,3,Perpezac-le-Blanc,Saint-Chamant
+random, 86,False,87,2,Cambon,Le Vintrou
+random, 42,False,43,3,Ingolsheim,Goetzenbruck
+random, 67,False,68,4,Balsièges,La Cavalerie
+random, 0,False,1,1,Albiosc,Albiosc
+random, 75,False,76,2,Le Gratteris,Gouhelans
+random, 73,False,74,2,Le Catelet,Bruay-sur-l'Escaut
+random, 53,False,54,3,Schœnbourg,Hegeney
+random, 0,False,1,1,La Hardoye,La Hardoye
+random, 22,False,23,1,Saint-Trojan,Saint-Laurent-Médoc
+random, 15,False,16,1,Saasenheim,Richtolsheim
+random, 0,False,1,1,Gonaincourt,Gonaincourt
+random, 45,False,46,1,Mantry,Crissey
+random, 33,False,34,1,Saint-Michel-en-Brenne,La Chapelle-Orthemale
+random, 32,False,33,2,Villers-en-Arthies,Saint-Illiers-la-Ville
+random, 49,False,50,3,Ruy-Montceau,Villefontaine
+random, 81,False,82,2,Gaillac-d'Aveyron,Pierrefiche
+random, 63,False,64,2,Lassales,Couret
+random, 73,False,74,2,Divonne-les-Bains,La Frasnée
+random, 35,False,36,2,Bourgon,Châtillon-en-Vendelais
+random, 35,False,36,2,Moulicent,Marchainville
+random, 47,False,48,1,Saint-Martin-de-Bossenay,Saint-Oulph
+random, 20,False,21,2,Brielles,Saint-Poix
+random, 91,False,92,2,Saint-Christophe-Vallon,Flavin
+random, 13,False,14,1,Lugny,Cilly
+random, 16,False,17,1,La Chapelle-en-Juger,Les Champs-de-Losque
+random, 29,False,30,2,Saint-Clair,Gasques
+random, 102,False,103,4,Brunémont,La Groise
+random, 101,False,102,2,Villeneuve-les-Genêts,Montreuillon
+random, 66,False,67,2,Upaix,Briançon
+random, 34,False,35,2,Saint-Germain-en-Brionnais,Saint-Igny-de-Vers
+random, 54,False,55,1,Thennes,Mézières-en-Santerre
+random, 60,False,61,2,Montgaillard-Lauragais,Molleville
+random, 35,False,36,1,Franxault,Gerland
+random, 66,False,67,3,Razengues,Cologne
+random, 83,False,84,4,Mably,Durmignat
+random, 33,False,34,2,Léguillac-de-Cercles,Périgueux
+random, 45,False,46,1,Broyes,Saron-sur-Aube
+random, 24,False,25,1,Jaulnay,Theneuil
+random, 32,False,33,1,Hagenthal-le-Haut,Werentzhouse
+random, 20,False,21,2,Lezéville,Pansey
+random, 73,False,74,3,Saint-Dier-d'Auvergne,Néronde
+random, 46,False,47,1,Vouthon,La Couronne
+random, 36,False,37,1,Essia,Chavéria
+random, 86,True,87,2,Pierrefitte-en-Beauvaisis,Cergy
+random, 12,False,13,1,La Jarne,Longèves
+random, 69,False,70,2,Saint-Vincent-de-Durfort,La Roche-sur-Grane
+random, 195,False,196,6,Mont-le-Vignoble,Brévonnes
+random, 41,False,42,3,Lavoûte-Chilhac,Auvers
+random, 1,True,2,1,Corbas,Vénissieux
+random, 37,False,38,1,Lamberville,Le Bourg-Dun
+random, 35,False,36,1,Darois,Massingy-lès-Vitteaux
+random, 106,False,107,3,Croissy-sur-Seine,Les Alluets-le-Roi
+random, 68,False,69,1,Pierrelongue,Montclar-sur-Gervanne
+random, 37,False,38,1,Esterre,Tramezaïgues
+random, 24,False,25,1,Rémering,Téterchen
+random, 12,False,13,2,Écourt-Saint-Quentin,Vitry-en-Artois
+random, 39,False,40,2,Le Saix,Vitrolles
+random, 31,False,32,2,Hyèvre-Magny,Montussaint
+random, 42,False,43,2,Luitré,Lécousse
+random, 36,False,37,1,Thory,Warvillers
+random, 185,False,186,5,Léojac,Sauveterre
+random, 28,True,29,1,Wangen,Strasbourg
+random, 47,False,48,2,Rimsdorf,Asswiller
+random, 3,True,4,3,La Grande-Motte,Arles
+random, 52,False,53,1,Ozoir-la-Ferrière,Montévrain
+random, 12,False,13,2,Vaux-en-Beaujolais,Chénelette
+random, 46,False,47,1,Alix,Corcelles-en-Beaujolais
+random, 0,False,1,1,Rouelles,Rouelles
+random, 2,True,3,1,Bruges,Bordeaux
+random, 11,False,12,1,Lafat,Bazelat
+random, 50,False,51,2,Saint-Ouen-sur-Iton,Le Fresne
+random, 19,False,20,2,Saint-Thibault,Morienne
+random, 41,False,42,2,Villié-Morgon,Foissiat
+random, 43,False,44,2,La Clusaz,La Roche-sur-Foron
+random, 28,True,29,1,Crillon,Beauvais
+random, 0,False,1,1,Tournedos-sur-Seine,Tournedos-sur-Seine
+random, 0,False,1,1,Thuit-Hébert,Thuit-Hébert
+random, 50,False,51,3,Ferrensac,Cazideroque
+random, 29,False,30,1,La Forteresse,Brion
+random, 1,True,2,1,Sassenage,Grenoble
+random, 88,False,89,3,Farges-lès-Mâcon,Navour-sur-Grosne
+random, 16,False,17,1,Froidmont-Cohartille,Chéry-lès-Pouilly
+random, 0,False,1,1,Rorthais,Rorthais
+random, 42,False,43,2,Vanzac,Viville
+random, 51,False,52,2,Zermezeele,Nieurlet
+random, 67,False,68,3,Oison,Ramoulu
+random, 61,False,62,2,Saint-Jean-de-Bournay,Saint-Julien-de-l'Herms
+random, 51,False,52,1,Allemant,Missy-sur-Aisne
+random, 29,False,30,2,Chabottes,L'Épine
+random, 0,False,1,1,Saint-Michel-l'Écluse-et-Léparon,Saint-Michel-l'Écluse-et-Léparon
+random, 31,False,32,2,Le Sappey,Neydens
+random, 28,False,29,3,Melleray,Saint-Ulphace
+random, 53,False,54,2,Couvrelles,Unchair
+random, 2,True,3,1,Fos-sur-Mer,Arles
+random, 0,False,1,1,Rosoy-sur-Amance,Rosoy-sur-Amance
+random, 43,False,44,1,Greuville,Varengeville-sur-Mer
+random, 32,False,33,2,Quintenas,Genilac
+random, 75,False,76,3,Cunac,Maureilhan
+random, 69,False,70,1,Puisieux-et-Clanlieu,Plomion
+random, 30,False,31,1,Saint-Pierre-en-Faucigny,Ville-en-Sallaz
+random, 24,False,25,3,Macogny,Crouy-sur-Ourcq
+random, 101,False,102,2,Thimonville,Sotzeling
+random, 0,False,1,1,Les Hauts de Forterre,Les Hauts de Forterre
+random, 42,False,43,1,Notre-Dame-du-Rocher,La Courbe
+random, 69,False,70,2,Saint-Germain-de-Belvès,Florimont-Gaumier
+random, 107,False,108,2,Pech,Sinsat
+random, 56,False,57,2,Ménil-Erreux,Aunou-sur-Orne
+random, 34,False,35,2,Buvilly,Nans-sous-Sainte-Anne
+random, 14,True,15,2,Fontenay-en-Parisis,Le Blanc-Mesnil
+random, 39,False,40,1,Saint-Germain-d'Esteuil,Vensac
+random, 19,False,20,2,L'Isle-en-Dodon,Martisserre
+random, 242,False,243,3,Cabanac-Séguenville,Pont-du-Casse
+random, 66,False,67,3,Lemainville,Foug
+random, 10,False,11,1,La Chapelle-Biche,Saint-Paul
+random, 10,False,11,1,Saint-Germain-sur-Bresle,Inval-Boiron
+random, 59,False,60,1,Achiet-le-Petit,Fontaine-lès-Croisilles
+random, 78,False,79,2,Foncegrive,Cohons
+random, 31,False,32,1,Neugartheim-Ittlenheim,Achenheim
+random, 26,True,27,1,Marcellois,Dijon
+random, 33,False,34,2,Chenillé-Changé,Cherré
+random, 127,False,128,2,Villers-le-Sec,Rigny-la-Nonneuse
+random, 194,False,195,3,Foucaucourt-Hors-Nesle,Lachapelle
+random, 103,False,104,1,Le Pasquier,Nogna
+random, 32,False,33,1,Brioux-sur-Boutonne,Paizay-le-Tort
+random, 86,False,87,3,Clérey-la-Côte,Villey-le-Sec
+random, 33,False,34,1,Montilliers,Chaudefonds-sur-Layon
+random, 136,False,137,3,Wanquetin,Ytres
+random, 15,False,16,1,Cravant,Sery
+random, 13,False,14,2,Le Perron,Sept-Vents
+random, 55,False,56,1,Ajac,Cavanac
+random, 47,False,48,2,Vézilly,Goudelancourt-lès-Berrieux
+random, 12,False,13,1,Isturits,Amorots-Succos
+random, 120,False,121,2,Cornillé-les-Caves,Plaine-et-Vallées
+random, 38,False,39,2,Chevannes,Prunoy
+random, 19,False,20,1,Bagneux-la-Fosse,Villemorien
+random, 0,False,1,1,Ogy-Montoy-Flanville,Ogy-Montoy-Flanville
+random, 102,False,103,2,Estrées-lès-Crécy,Henneveux
+random, 72,False,73,2,Cramont,Maizières
+random, 37,False,38,1,Loisin,Douvaine
+random, 32,False,33,3,Toury-Lurcy,La Comelle
+random, 25,False,26,1,Théziers,Flaux
+random, 34,False,35,2,Mulcent,Flins-Neuve-Église
+random, 40,False,41,1,Chênex,Ambilly
+random, 40,False,41,1,Fontenoy,Levis
+random, 65,False,66,2,Bousseviller,Bettviller
+random, 49,False,50,2,Chessy-les-Prés,Villiers-Vineux
+random, 33,True,34,1,Haveluy,Lille
+random, 38,False,39,2,Champdivers,Quintigny
+random, 20,False,21,2,Lacapelle-Viescamp,Saint-Gérons
+random, 15,False,16,1,Blanot,Péronne
+random, 20,False,21,1,Noguères,Labastide-Cézéracq
+random, 15,False,16,2,Lhuître,Corbeil
+random, 40,False,41,2,Doignies,Willerval
+random, 9,False,10,1,Grenay,Haisnes
+random, 33,False,34,2,Denney,Bourbach-le-Haut
+random, 62,False,63,2,Berstheim,Engwiller
+random, 68,False,69,1,Saint-Jean-de-Bœuf,Mavilly-Mandelot
+random, 8,False,9,1,Saint-Mars-de-Coutais,Machecoul-Saint-Même
+random, 57,False,58,2,Carcans,Vertheuil
+random, 30,False,31,1,Estérençuby,Aincille
+random, 65,False,66,1,Sainte-Marguerite-en-Ouche,Gaudreville-la-Rivière
+random, 43,False,44,2,Misérieux,Theizé
+random, 39,True,40,1,Aizenay,La Roche-sur-Yon
+random, 39,False,40,2,Lacaze,Le Soulié
+random, 18,False,19,1,Adelange,Viller
+random, 37,False,38,1,Faugères,Roquessels
+random, 31,False,32,1,Bavent,Fourneville
+random, 44,True,45,2,Morainvilliers,Cergy
+random, 35,True,36,3,Civens,Lyon
+random, 19,False,20,3,Courgivaux,Châtillon-sur-Morin
+random, 47,False,48,2,Saint-Hilaire-le-Grand,Rouvroy-Ripont
+random, 53,False,54,1,Tracy-sur-Mer,Saint-Côme-de-Fresné
+random, 89,False,90,1,Hangest-en-Santerre,Rumigny
+random, 88,False,89,2,Marcenais,Prignac-et-Marcamps
+random, 27,False,28,1,Guern,Pluméliau
+random, 99,False,100,1,Bruay-la-Buissière,Humbert
+random, 9,True,10,2,Saint-Germain-au-Mont-d'Or,Lyon
+random, 54,False,55,2,Champfleury,Mesnil-la-Comtesse
+random, 37,False,38,1,Sourzac,Saint-Germain-du-Salembre
+random, 16,False,17,1,Nassiet,Labastide-Chalosse
+random, 66,False,67,3,Sens-de-Bretagne,Bazouges-la-Pérouse
+random, 43,False,44,2,Saint-Martin-des-Bois,Azé
+random, 40,False,41,1,Touquin,Touquin
+random, 7,True,8,1,Biesheim,Colmar
+random, 54,False,55,2,Landécourt,Mazirot
+random, 35,True,36,2,Essigny-le-Grand,Saint-Quentin
+random, 15,False,16,2,Dunières,Montfaucon-en-Velay
+random, 15,False,16,1,Chardogne,Beurey-sur-Saulx
+random, 4,True,5,1,Gréolières,Nice
+random, 175,False,176,3,Le Causé,Laveraët
+random, 146,False,147,2,Lanton,Blaye
+random, 77,False,78,2,Bessamorel,Chassignolles
+random, 35,False,36,1,Leyviller,Henriville
+random, 71,False,72,4,Banassac,Brezons
+random, 28,False,29,1,Taverny,Béthemont-la-Forêt
+random, 42,False,43,1,Fayssac,Puygouzon
+random, 91,False,92,1,Campan,Vizos
+random, 20,False,21,2,Arthezé,Sceaux-d'Anjou
+random, 50,False,51,1,Saint-Gilles-les-Bois,Plouézec
+random, 67,False,68,2,Velaines,Échenay
+random, 101,False,102,2,Foreste,Brie
+random, 54,False,55,1,Salenthal,Vendenheim
+random, 41,False,42,1,Lux,Mirebeau-sur-Bèze
+random, 14,False,15,1,Saint-Fraimbault-de-Prières,Champéon
+random, 87,False,88,2,Miglos,Gaja-la-Selve
+random, 48,False,49,2,Jeu-les-Bois,Azerables
+random, 77,False,78,3,Mertzwiller,Riedseltz
+random, 88,False,89,2,Scieurac-et-Flourès,Estampures
+random, 22,False,23,2,Valprivas,Malvalette
+random, 153,False,154,4,Vitry-le-Croisé,Ippécourt
+random, 30,False,31,1,Rigarda,Joch
+random, 37,False,38,2,Allons,Tourtour
+random, 72,False,73,3,Villeret,Ribemont
+random, 54,False,55,1,Saonnet,Le Molay-Littry
+random, 19,False,20,1,Cricqueville-en-Bessin,Formigny
+random, 65,False,66,1,Bayeux,Parfouru-sur-Odon
+random, 85,False,86,2,Berles-Monchel,Éleu-dit-Leauwette
+random, 57,False,58,3,Sonnac-sur-l'Hers,Matemale
+random, 52,False,53,2,Merceuil,Meursault
+random, 49,False,50,2,Favresse,Saint-Utin
+random, 65,False,66,3,Bazac,Villetoureix
+random, 55,False,56,1,Saint-Patrice-de-Claids,Le Valdécie
+random, 29,False,30,2,La Coucourde,Les Tourrettes
+random, 10,False,11,2,Sainte-Colombe-de-Duras,Coubeyrac
+random, 135,False,136,3,Verneuil,Villamblard
+random, 45,True,46,2,Méaudre,Grenoble
+random, 86,False,87,3,Gourchelles,Saint-Rémy-Boscrocourt
+random, 12,False,13,1,Miraval-Cabardès,La Tourette-Cabardès
+random, 30,False,31,2,Entremont,Valezan
+random, 103,False,104,1,Grainville-la-Teinturière,Rocquefort
+random, 52,False,53,2,Plussulien,Trémel
+random, 28,False,29,1,Chasselay,Burcin
+random, 32,False,33,2,Lagruère,Saint-Sauveur-de-Meilhan
+random, 22,False,23,2,Malans,Lavans-lès-Dole
+random, 26,False,27,1,Maltot,Éterville
+random, 0,False,1,1,Saint-Siméon,Saint-Siméon
+random, 37,False,38,2,Poyols,Châtillon-en-Diois
+random, 18,False,19,2,Durrenentzen,Mackenheim
+random, 34,False,35,1,Saint-Sauveur-la-Pommeraye,Donville-les-Bains
+random, 95,False,96,1,Saint-Just-et-le-Bézu,Belcastel-et-Buc
+random, 136,False,137,2,Croisances,Sainte-Eulalie
+random, 90,True,91,3,Moisson,Sartrouville
+random, 113,False,114,3,Remollon,Aiguilles
+random, 59,False,60,2,Talazac,Castéra-Loubix
+random, 53,False,54,1,Sury,Monthermé
+random, 30,False,31,1,Roquepine,Caussens
+random, 44,False,45,1,Saint-Amant-de-Boixe,Saint-Sornin
+random, 20,False,21,1,Cressat,La Celle-sous-Gouzon
+random, 41,False,42,1,Farébersviller,Leyviller
+random, 34,False,35,2,Aiguilles,Saint-Julien-Mont-Denis
+random, 12,False,13,1,Fécamp,Gerville
+random, 135,False,136,1,Méménil,Fremifontaine
+random, 18,False,19,2,Quillebeuf-sur-Seine,La Cerlangue
+random, 39,True,40,1,Aubin,Pau
+random, 75,False,76,3,Saint-Ours,Traize
+random, 33,True,34,1,Foissac,Nîmes
+random, 61,False,62,3,L'Isle-sur-la-Sorgue,Saint-Martin-les-Eaux
+random, 34,False,35,1,Javernant,Crésantignes
+random, 207,False,208,3,Jouy-sur-Morin,Courlandon
+random, 11,False,12,1,Vadencourt,Toutencourt
+random, 42,False,43,1,Cuirieux,La Bouteille
+random, 16,False,17,1,Saint-Pierre-de-Chignac,Saint-Martial-d'Albarède
+random, 0,True,1,1,Quimper,Quimper
+random, 2,True,3,1,Mur-sur-Allier,Clermont-Ferrand
+random, 8,False,9,1,Favières,Selaincourt
+random, 19,False,20,1,Baconnes,Aulnay-sur-Marne
+random, 13,True,14,1,Durfort-Lacapelette,Montauban
+random, 78,False,79,1,Roscoff,La Forest-Landerneau
+random, 26,False,27,2,Sirod,Villers-sous-Chalamont
+random, 26,True,27,1,Les Moutiers-en-Retz,Nantes
+random, 73,False,74,2,Sainte-Eulalie-en-Royans,Saint-Michel-de-Saint-Geoirs
+random, 97,False,98,2,Billière,Arguenos
+random, 52,False,53,1,Beaumont,Champagnac-la-Prune
+random, 13,False,14,1,Sivry-Courtry,Féricy
+random, 21,False,22,1,Vizille,Le Pont-de-Claix
+random, 17,False,18,2,Agenville,Gueschart
+random, 25,False,26,2,Chaux-des-Prés,Septmoncel
+random, 116,False,117,2,Lespourcy,Castetpugon
+random, 63,False,64,2,Mézin,Caussens
+random, 22,False,23,1,Quilly,Chardeny
+random, 27,False,28,2,Limeyrat,Saint-Front-la-Rivière
+random, 33,False,34,1,Bernardvillé,Niedernai
+random, 46,False,47,2,Aigueperse,Limons
+random, 72,False,73,1,Trélévern,Trévérec
+random, 32,False,33,1,Villevenard,Saudoy
+random, 62,True,63,1,Saint-Sylvain,Caen
+random, 94,False,95,3,Sainte-Marguerite,Moncel-sur-Seille
+random, 73,False,74,2,Souraïde,Uza
+random, 58,False,59,2,Boofzheim,Guémar
+random, 19,True,20,1,Combrit,Quimper
+random, 49,False,50,1,Dourges,Montigny-en-Gohelle
+random, 30,False,31,1,Caunettes-en-Val,Sallèles-d'Aude
+random, 123,False,124,2,Sainte-Marie,Bordères-Louron
+random, 35,False,36,1,Fresquiennes,Bosc-Guérard-Saint-Adrien
+random, 0,False,1,1,Benqué-Molère,Benqué-Molère
+random, 28,False,29,1,Soligny-la-Trappe,Boitron
+random, 19,True,20,1,Halluin,Tourcoing
+random, 94,False,95,2,Saint-Martin-aux-Chartrains,Asnières
+random, 54,False,55,2,Cras,Cézac
+random, 50,False,51,2,Vendresse-Beaulne,Amifontaine
+random, 34,False,35,2,Waltembourg,Lohr
+random, 94,False,95,3,Montapas,Vitray
+random, 105,False,106,3,Wegscheid,Chaux
+random, 113,False,114,3,Les Orres,Beuil
+random, 4,True,5,1,Savigny-le-Sec,Dijon
+random, 51,False,52,3,Pomport,Fourques-sur-Garonne
+random, 66,False,67,4,Lartigue,Labarthète
+random, 4,True,5,1,Fouesnant,Quimper
+random, 96,False,97,2,Cléré-les-Pins,Tauxigny
+random, 42,False,43,4,Passais-Villages,Vendel
+random, 28,False,29,1,Camou-Cihigue,Chéraute
+random, 25,False,26,2,Thiers-sur-Thève,Baron
+random, 18,False,19,1,Valençay,Vicq-sur-Nahon
+random, 82,False,83,3,Saint-Martin-de-Nigelles,Saint-Illiers-la-Ville
+random, 26,False,27,2,Montvicq,Youx
+random, 49,False,50,2,Villebougis,Gron
+random, 17,False,18,1,Boulaur,Polastron
+random, 46,False,47,2,Chirassimont,Ouches
+random, 11,True,12,2,Auriol,Toulon
+random, 76,False,77,2,Bressieux,Brangues
+random, 47,False,48,1,Lantic,Pléboulle
+random, 53,False,54,1,Saint-Aoustrille,Gournay
+random, 10,False,11,1,Mancenans-Lizerne,Mont-de-Vougney
+random, 29,False,30,2,Châtillon-en-Dunois,Marolles-les-Buis
+random, 16,False,17,1,Entrange,Haute-Kontz
+random, 49,False,50,1,Plouhinec,Gâvres
+random, 47,False,48,1,Laduz,Les Ormes
+random, 99,False,100,2,Échannay,Villy-le-Moutier
+random, 16,False,17,2,La Celle,Sermur
+random, 141,False,142,3,Montsalvy,Saint-Paul-de-Vern
+random, 22,False,23,1,Herm,Saubusse
+random, 23,False,24,1,Caupenne,Lamothe
+random, 33,False,34,1,Ancerville,Hémilly
+random, 36,False,37,2,Siltzheim,Saint-Jean-Rohrbach
+random, 124,False,125,2,Saint-Martin-de-Landelles,Les Iffs
+random, 61,False,62,3,Saint-Martin-d'Ordon,Hermé
+random, 41,False,42,1,Cheny,Beaumont
+random, 8,True,9,1,Toulouges,Perpignan
+random, 26,False,27,2,Pissy,Le Saulchoy
+random, 16,False,17,1,Burgy,Viré
+random, 46,False,47,1,Monviel,Monviel
+random, 14,True,15,2,Villebon-sur-Yvette,Versailles
+random, 31,False,32,1,Hames-Boucres,Samer
+random, 93,False,94,2,Aubigny,Gaudechart
+random, 21,True,22,1,Bougival,Versailles
+random, 14,False,15,1,Éculleville,Saint-Germain-des-Vaux
+random, 24,False,25,2,Magny-la-Fosse,Dehéries
+random, 82,False,83,2,Villenave-près-Béarn,Jarret
+random, 42,False,43,1,Pimelles,Beine
+random, 25,False,26,2,Plan-d'Aups-Sainte-Baume,Vauvenargues
+random, 40,False,41,1,Tartas,Horsarrieu
+random, 68,False,69,2,Putanges-le-Lac,Aunou-le-Faucon
+random, 32,False,33,1,Sept-Saulx,Prosnes
+random, 111,False,112,3,Souilhanels,Aulus-les-Bains
+random, 56,False,57,2,Asfeld,Sery
+random, 48,True,49,1,Varize-Vaudoncourt,Metz
+random, 81,False,82,2,Ansauvillers,Valdampierre
+random, 91,False,92,1,Villers-sur-le-Mont,Montigny-sur-Vence
+random, 41,False,42,2,Raze,Geneuille
+random, 108,False,109,1,Ozourt,Oeyreluy
+random, 53,False,54,1,Harnes,Maisnil-lès-Ruitz
+random, 117,False,118,3,Péreille,Belcastel-et-Buc
+random, 15,False,16,1,Ris-Orangis,Cheptainville
+random, 23,False,24,1,Conquereuil,Drefféac
+random, 18,False,19,2,Chennebrun,Sainte-Gauburge-Sainte-Colombe
+random, 65,False,66,3,Maisoncelles-du-Maine,Saint-Marc-sur-Couesnon
+random, 39,False,40,1,Saint-Sulpice,Carlucet
+random, 71,False,72,1,Mussidan,Monmadalès
+random, 119,False,120,1,Quillan,Puichéric
+random, 19,False,20,2,Pimelles,Rugny
+random, 53,False,54,1,Lortet,Calavanté
+random, 68,False,69,2,La Ferté-Frênel,Champignolles
+random, 57,False,58,3,Louye,Saint-Hilarion
+random, 22,False,23,1,Nernier,Ballaison
+random, 95,False,96,2,La Séauve-sur-Semène,Pouilly-lès-Feurs
+random, 39,False,40,2,Espeyrac,Conques
+random, 64,False,65,2,Clayeures,Saint-Firmin
+random, 73,False,74,1,Chooz,Montigny-sur-Meuse
+random, 18,False,19,1,Pradettes,La Bastide-sur-l'Hers
+random, 108,False,109,4,Couhé,Alloinay
+random, 46,False,47,2,Pair-et-Grandrupt,Saint-Pierremont
+random, 37,False,38,1,Wambez,Milly-sur-Thérain
+random, 86,False,87,1,Lent,Saint-Martin-de-Bavel
+random, 23,True,24,1,Montmançon,Dijon
+random, 33,False,34,1,Sainte-Radegonde,Plieux
+random, 13,False,14,1,Novillars,Vaire-le-Petit
+random, 84,False,85,1,Saint-Léger,Feissons-sur-Isère
+random, 34,False,35,1,Vandré,Chambon
+random, 28,False,29,2,Lawarde-Mauger-l'Hortoy,Oroër
+random, 127,False,128,3,Bernon,Courteron
+random, 75,False,76,2,Poussanges,Treignat
+random, 24,False,25,2,Zittersheim,Meisenthal
+random, 88,False,89,3,Massingy,Rouelles
+random, 86,True,87,3,Boyeux-Saint-Jérôme,Annecy
+random, 0,False,1,1,Q28040566,Q28040566
+random, 104,False,105,3,Puy-d'Arnac,Vezels-Roussy
+random, 2,True,3,1,Redessan,Nîmes
+random, 29,False,30,2,Réalmont,La Selve
+random, 40,False,41,3,Bey,Charette-Varennes
+random, 19,False,20,3,Allamps,Autreville
+random, 48,False,49,2,Nordheim,Lixheim
+random, 42,False,43,2,Gerzat,Cognat-Lyonne
+random, 31,False,32,1,Vœuil-et-Giget,Puymoyen
+random, 1,True,2,1,Pont-Sainte-Marie,Troyes
+random, 63,False,64,2,Argillières,Rouelles
+random, 132,False,133,1,Saint-Pierre-le-Viger,Bourville
+random, 70,False,71,2,Saint-Germain-du-Crioult,Saint-Paul
+random, 48,False,49,2,Berriac,Caucalières
+random, 24,False,25,1,Landerrouet-sur-Ségur,Soussac
+random, 26,False,27,1,Lortet,Saint-Laurent-de-Neste
+random, 53,False,54,3,Sainte-Enimie,Bréau-et-Salagosse
+random, 50,True,51,2,Bazauges,Niort
+random, 0,False,1,1,Saint-Vinnemer,Saint-Vinnemer
+random, 26,False,27,1,Villers-Saint-Martin,Lomont-sur-Crête
+random, 18,False,19,2,Giat,Verneugheol
+random, 20,False,21,1,Thouars-sur-Garonne,Thouars-sur-Garonne
+random, 32,False,33,1,Lully,Margencel
+random, 40,False,41,2,Selles,Arbecey
+random, 42,False,43,4,Harquency,Authevernes
+random, 44,False,45,2,Dolignon,Hannogne-Saint-Rémy
+random, 19,False,20,2,Les Mars,Dontreix
+random, 32,False,33,1,Clermont,Épineuse
+random, 128,False,129,2,Vitry-Laché,Saint-Léger-sous-Beuvray
+random, 34,False,35,2,Plan-d'Aups-Sainte-Baume,Cuges-les-Pins
+random, 89,False,90,2,Remy,Laucourt
+random, 79,False,80,2,Goulles,Saint-Pardoux-le-Vieux
+random, 34,False,35,1,Champ-sur-Layon,Saint-Jean-des-Mauvrets
+random, 50,False,51,2,Arthès,Crespinet
+random, 42,False,43,1,Saint-Aignan,Lumes
+random, 13,True,14,1,Hunawihr,Colmar
+random, 21,False,22,1,Saint-Martin-le-Vinoux,Corenc
+random, 96,True,97,4,Péronville,Orléans
+random, 38,False,39,2,Fourchambault,Menetou-Couture
+random, 41,False,42,1,Rebreuve-Ranchicourt,Divion
+random, 3,True,4,1,Eulmont,Nancy
+random, 49,False,50,2,Les Monts-Verts,Recoules-de-Fumas
+random, 37,False,38,2,Avançon,Rozoy-sur-Serre
+random, 22,False,23,1,Hauteville,Aisonville-et-Bernoville
+random, 51,False,52,1,Sandaucourt,Viviers-lès-Offroicourt
+random, 36,False,37,1,Poix-Terron,Singly
+random, 133,False,134,2,Villeneuve,Bertholène
+random, 6,True,7,1,Beaufay,Le Mans
+random, 27,False,28,1,Corent,Chanonat
+random, 37,False,38,2,Alrance,Valence-d'Albigeois
+random, 83,False,84,3,Cadeillan,Glatens
+random, 86,False,87,2,Madranges,Auzers
+random, 86,False,87,2,Saint-Michel-sur-Savasse,Piégros-la-Clastre
+random, 32,False,33,2,Aillevillers-et-Lyaumont,Monthureux-sur-Saône
+random, 34,True,35,2,Saint-Prix,Drancy
+random, 45,False,46,1,La Vallée,La Benâte
+random, 0,False,1,1,Brissac Loire Aubance,Brissac Loire Aubance
+random, 121,False,122,2,Venère,Saint-Gand
+random, 11,False,12,1,Trézilidé,Plougourvest
+random, 56,False,57,2,Steinbourg,Phalsbourg
+random, 53,False,54,1,Sourniac,Le Vaulmier
+random, 22,False,23,1,La Chaudière,Saou
+random, 250,False,251,3,Berbérust-Lias,Anères
+random, 15,True,16,1,Fresnes-sur-Marne,Chelles
+random, 27,False,28,2,Belmont-Luthézieu,Vions
+random, 41,False,42,1,Auvilliers,Esclavelles
+random, 25,False,26,2,Saint-Pierre-Saint-Jean,Saint-Pierre-Saint-Jean
+random, 1,True,2,1,Osny,Cergy
+random, 162,False,163,3,Villers-en-Haye,Circourt-sur-Mouzon
+random, 48,False,49,2,Sainte-Aulde,Courchamps
+random, 55,False,56,4,Les Hermaux,Pompignan
+random, 30,False,31,1,La Vendelée,Montcuit
+random, 111,False,112,3,Anould,Arrentès-de-Corcieux
+random, 78,False,79,3,Anjouin,Saint-Éloy-de-Gy
+random, 55,False,56,1,Obtrée,Crépand
+random, 79,False,80,3,Bevons,Cholonge
+random, 101,False,102,3,Rampieux,Prats-du-Périgord
+random, 0,False,1,1,Gonneville,Gonneville
+random, 66,False,67,1,Savigny-le-Sec,Arrans
+random, 34,False,35,2,Villard-Saint-Sauveur,Avignon-lès-Saint-Claude
+random, 6,True,7,1,Saint-Didier,Rennes
+random, 20,True,21,2,Vouzon,Orléans
+random, 10,False,11,1,Beton-Bazoches,Champcenest
+random, 71,False,72,2,Bully-les-Mines,Fampoux
+random, 46,False,47,1,Benoîtville,Flamanville
+random, 83,False,84,1,Raillicourt,Blanchefosse-et-Bay
+random, 98,False,99,2,Cromary,Vellefaux
+random, 113,False,114,3,Val-de-Livre,Lignon
+random, 18,False,19,1,La Roche-Maurice,Guipavas
+random, 0,False,1,1,Val d'Arry,Val d'Arry
+random, 55,False,56,3,Lagnes,Meynes
+random, 14,False,15,1,Cuiry-lès-Iviers,Dagny-Lambercy
+random, 46,False,47,2,Augerans,Arc-et-Senans
+random, 29,False,30,1,Saint-Genest,Saint-Gorgon
+random, 73,False,74,3,Gaudonville,Monbrun
+random, 21,True,22,3,Saint-Leu-la-Forêt,Le Blanc-Mesnil
+random, 11,False,12,2,Achères,Herblay-sur-Seine
+random, 68,False,69,1,Meunet-Planches,Fontenay
+random, 36,False,37,1,Saint-Beauzély,Brousse-le-Château
+random, 41,False,42,2,Merck-Saint-Liévin,Moulle
+random, 140,False,141,3,Véria,Le Vaudioux
+random, 85,False,86,1,Rochefourchat,Les Tonils
+random, 38,False,39,2,Villaroux,Villard-d'Héry
+random, 37,False,38,1,Ramonville-Saint-Agne,Vieillevigne
+random, 0,False,1,1,Bourgogne-Fresne,Bourgogne-Fresne
+random, 45,False,46,2,Montaut,Chélan
+random, 25,False,26,3,Saint-Ondras,Chimilin
+random, 63,False,64,3,Presles,Le Neufbourg
+random, 12,False,13,2,Farincourt,Fouvent-Saint-Andoche
+random, 142,False,143,2,Vignevieille,Ginoles
+random, 0,False,1,1,Cottier,Cottier
+random, 24,False,25,1,La Bâtie-Neuve,Rabou
+random, 68,False,69,2,Le Chateley,Oussières
+random, 26,False,27,2,Cinq-Mars-la-Pile,Neuillé-Pont-Pierre
+random, 62,False,63,2,Réans,Ramouzens
+random, 30,False,31,1,Saint-Pôtan,Plancoët
+random, 60,False,61,3,Auriac-sur-Vendinelle,Cuxac-Cabardès
+random, 27,False,28,1,Savigny,Chavannaz
+random, 5,True,6,2,Tarnos,Bayonne
+random, 0,False,1,1,Notre-Dame-de-Briançon,Notre-Dame-de-Briançon
+random, 66,False,67,1,Liancourt,Martincourt
+random, 43,False,44,2,Chevannes,Villeneuve-au-Chemin
+random, 14,False,15,2,Talencieux,Andance
+random, 29,True,30,1,Courteranges,Troyes
+random, 52,False,53,1,Linsdorf,Franken
+random, 27,False,28,2,Bouin,Theil-Rabier
+random, 37,False,38,1,Betteville,Villers-Écalles
+random, 50,False,51,1,Brancourt-en-Laonnois,Lhuys
+random, 77,False,78,2,Châtillon,Nans-sous-Sainte-Anne
+random, 0,True,1,1,Colmar,Colmar
+random, 46,False,47,1,Saint-Geours-de-Maremne,Mézos
+random, 19,False,20,1,Champvans,Chaumercenne
+random, 45,False,46,2,Wildersbach,Neuviller-la-Roche
+random, 39,False,40,1,Quincey,Brazey-en-Plaine
+random, 22,False,23,1,Aulnois-en-Perthois,Combles-en-Barrois
+random, 73,False,74,3,Chambon-sur-Dolore,Escoutoux
+random, 63,False,64,3,Gresin,Chazey-Bons
+random, 26,False,27,2,Rilhac-Treignac,Eymoutiers
+random, 45,False,46,2,Auenheim,Salmbach
+random, 46,False,47,3,Myennes,Mailly-le-Château
+random, 83,False,84,2,Glénat,Bassignac-le-Haut
+random, 0,False,1,1,Saints-Geosmes,Saints-Geosmes
+random, 29,False,30,2,Gilly-sur-Loire,Saint-Pourçain-sur-Besbre
+random, 57,False,58,1,Auzouville-Auberbosc,Rouville
+random, 85,False,86,3,Preuilly-sur-Claise,Marigny-Marmande
+random, 30,False,31,2,Jasney,Dampvalley-Saint-Pancras
+random, 25,False,26,1,Boigny-sur-Bionne,Bougy-lez-Neuville
+random, 50,False,51,2,Vagnas,Vagnas
+random, 14,False,15,1,Pey,Soorts-Hossegor
+random, 33,False,34,3,Millery,Vourles
+random, 11,False,12,2,Souclin,Porcieu-Amblagnieu
+random, 13,False,14,1,Langrune-sur-Mer,Plumetot
+random, 14,False,15,2,Ponson-Debat-Pouts,Ponson-Dessus
+random, 10,False,11,1,Sauviac,Montaut
+random, 49,False,50,2,Manigod,Saint-Gervais-les-Bains
