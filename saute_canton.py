@@ -1,10 +1,10 @@
-import request_canton
+import database.request_canton as request_canton
 from graph import Country, Canton, Region
 import random
 from enum import Enum
 import argparse
 
-import sqldb
+import database.sqldb as sqldb
 import sqlite3
 
 import pickle
@@ -44,7 +44,7 @@ class RandomDirection(Voyager):
         self.visited_cities = []
         self.visited_regions = []
         self.arrived = False
-        self.file = open("randomstat.csv", "at",  encoding="utf-8")
+        self.file = open("resultats/randomstat.csv", "at",  encoding="utf-8")
 
     def get_starting_point(self, country: Country):
         random.seed()
@@ -77,13 +77,11 @@ class RandomDirection(Voyager):
         while(True):
             index = random.randint(0, nb_choice-1)
             to_choose = choices[index]
-            print("index:",  index , "nb choice = ", nb_choice, "o_choose:", to_choose)
             ngh = ""
             for n in canton.neighbours.keys():
                 ngh += "," + n
-            print(ngh)
             choosen = canton.neighbours[to_choose]
-            print("choosen = ", choosen)
+
             if choosen.name not in self.visited_cities or self.visited_cities.count(choosen.name) <= 3: 
                 self.visited_cities.append(choosen.name)
                 if choosen.region not in self.visited_regions:
@@ -110,7 +108,7 @@ class RandomDirection(Voyager):
                     break
 
                 nb_jump += 1
-            things_to_write = ("random, ", nb_jump, ",", self.arrived, ","
+        things_to_write = ("random, ", nb_jump, ",", self.arrived, ","
                                 , len(self.visited_cities), ",",len(self.visited_regions)
                                 ,",", self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
@@ -127,7 +125,7 @@ class FollowADirection(Voyager):
         self.arrived = False
         self.direction = direction
         d = direction.value[0]
-        name = "followstat_" + d
+        name = "resultats/followstat_" + d
         self.file = open(name +".csv", "at")
 
     def get_starting_point(self, country: Country):
@@ -206,8 +204,7 @@ class FollowADirection(Voyager):
                 if all(city in l_name for city in neigh):
                     return None
                 l_name.append(best_city.name)
-                #print(best_city.name)
-        print(best_city.name)
+
         return best_city
 
 
@@ -263,14 +260,12 @@ if __name__ == '__main__' :
         france = pickle.load(open("france.p", "rb"))
 
     else:
-        canton = sqlite3.connect("canton.db")
+        canton = sqlite3.connect("database/canton.db")
         
-        print("connected")
         sqldb.init(canton)
         cities  = sqldb.get_cities(canton)
         borders = sqldb.get_borders(canton)
-        print(cities[0])
-        print(borders[1])
+
         france = Country()
         border_index = []
         border_index.extend(range(len(borders)))
@@ -288,7 +283,6 @@ if __name__ == '__main__' :
                     neigh.append(borders[i][1])
                     border_index.remove(i)"""
             france.add_canton(code, name, pop, region, coord, neigh)
-            print(len(france.cantons))
 
         list_cities = france.cantons.keys()
         for city in list_cities:
