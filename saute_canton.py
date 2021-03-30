@@ -59,7 +59,7 @@ class RandomDirection(Voyager):
 
     def tooMuchOccurence(self, choices):
         for city_name in choices:
-            if city_name in self.visited_cities and self.visited_cities.count(choosen.name) <= 3: 
+            if city_name in self.visited_cities and self.visited_cities.count(city_name) <= 3: 
                 return False
 
         return True
@@ -69,25 +69,18 @@ class RandomDirection(Voyager):
         random.seed()
         nb_choice = len(canton.neighbours)
         choices = list(canton.neighbours.keys())
-        """for key in canton.neighbours.keys():
-            if key == None:
-                print("probleme")
-            else:
-                print(key, canton.neighbours[key].name)"""
-        while(True):
-            index = random.randint(0, nb_choice-1)
-            to_choose = choices[index]
-            ngh = ""
-            for n in canton.neighbours.keys():
-                ngh += "," + n
-            choosen = canton.neighbours[to_choose]
+        choices_names = []
+        for c in canton.neighbours.values():
+            choices.append(c.name)
 
+        while(True):
+            choosen = random.choice(list(canton.neighbours.values()))
             if choosen.name not in self.visited_cities or self.visited_cities.count(choosen.name) <= 3: 
                 self.visited_cities.append(choosen.name)
                 if choosen.region not in self.visited_regions:
                     self.visited_regions.append(choosen.region)
                 return choosen
-            elif self.tooMuchOccurence(choices): 
+            elif self.tooMuchOccurence(choices_names): 
                 return None
             
 
@@ -97,18 +90,16 @@ class RandomDirection(Voyager):
         while(not self.arrived):
             if city.is_big : 
                 self.arrived = True
-                print("Arrived in a big city")
                 break
             else:
                 if len(city.neighbours) < 1 :
-                    print("Plus de voisin dispo, Impossible")
                     break
                 city = self.jump(city)
                 if city == None:
                     break
 
                 nb_jump += 1
-        things_to_write = ("random, ", nb_jump, ",", self.arrived, ","
+        things_to_write = ("random, ", nb_jump, ",",int(self.arrived), ","
                                 , len(self.visited_cities), ",",len(self.visited_regions)
                                 ,",", self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
@@ -231,18 +222,17 @@ class FollowADirection(Voyager):
         while(not self.arrived):
             if city.is_big : 
                 self.arrived = True
-                print("Arrived in a big city")
                 break
             else:
                 if len(city.neighbours) < 1 :
-                    print("Plus de voisin dispo, Impossible")
                     break
                 city = self.jump(city)
                 if city == None:
                     break
             nb_jump += 1
         #partie où on écrit
-        things_to_write = (self.direction, ",",nb_jump, ",", self.arrived, ","
+
+        things_to_write = (self.direction, ",",nb_jump, ",", int(self.arrived), ","
                            , len(self.visited_cities), ",",len(self.visited_regions)
                             , ",",self.visited_cities[0], ",", self.visited_cities[-1], "\n")
         to_write = ''.join([str(t) for t in things_to_write])
