@@ -1,11 +1,17 @@
 import sqlite3
 import re
 from typing import List
-import database.request_canton
+if __name__ == "__main__":
+    import request_canton
+else:
+    from . import request_canton
 import argparse
 import sys
+import os
 from multiprocessing import Pool
 from functools import partial
+
+print(os.path.abspath('.'))
 
 # Informations disponible: https://www.insee.fr/fr/information/4316069
 START_COMMUNE = 1001
@@ -41,12 +47,12 @@ def insert_into_regions(db: sqlite3.Connection, data):
 
 def city_to_obj(data):
     return(parse_uri(data["commune_de_France"]),
-           data["commune_de_FranceLabel"]["value"],
-           parse_uri(data.get("departement", None)),
-           parse_uri(data.get("region", None)),
-           int(data["population"]["value"]),
-           get_point(data["location"]["value"]),
-           -1)
+        data["commune_de_FranceLabel"]["value"],
+        parse_uri(data.get("departement", None)),
+        parse_uri(data.get("region", None)),
+        int(data["population"]["value"]),
+        get_point(data["location"]["value"]),
+        -1)
 
 #data is the big data list from the query
 def insert_into_cities(db: sqlite3.Connection, data):
@@ -122,7 +128,7 @@ def query_cities_neighbors(db: sqlite3.Connection):
     print()
 
 def get_db_connection():
-    return sqlite3.connect("canton.db")
+    return sqlite3.connect(os.path.join(os.path.dirname(__file__) + "/canton.db"))
 
 def get_cities(db: sqlite3.Connection, raw=False):
     cities: List[List] = select_all_from(db, "cities")
